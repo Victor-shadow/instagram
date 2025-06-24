@@ -1,0 +1,550 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.socialmediaapplication"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="27"
+10        android:targetSdkVersion="35" />
+11    <!-- Allows the app to read image and video files that you select from shared storage. -->
+12    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+12-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:7:5-89
+12-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:7:22-87
+13    <!-- Allows the app to read the video files from your shared storage -->
+14    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+14-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:9:5-74
+14-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:9:22-72
+15    <!-- Allows the app to read the image files from your shared storage -->
+16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+16-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:11:5-75
+16-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:11:22-73
+17    <!-- Allows the app to show notifications -->
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:13:5-76
+18-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:13:22-74
+19    <!-- Allows the app to view-information about Wi-Fi networking, such as whether Wi-Fi is enabled and name of connected Wi-Fi devices -->
+20    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:15:5-82
+20-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:15:29-80
+21
+22    <compatible-screens>
+22-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:16:5-25:26
+23        <screen
+23-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:17:9-73
+24            android:screenDensity="560"
+24-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:17:17-44
+25            android:screenSize="small" />
+25-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:17:45-71
+26        <screen
+26-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:18:9-74
+27            android:screenDensity="560"
+27-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:18:17-44
+28            android:screenSize="normal" />
+28-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:18:45-72
+29        <screen
+29-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:19:9-73
+30            android:screenDensity="560"
+30-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:19:17-44
+31            android:screenSize="large" />
+31-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:19:45-71
+32        <screen
+32-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:20:9-74
+33            android:screenDensity="560"
+33-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:20:17-44
+34            android:screenSize="xlarge" />
+34-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:20:45-72
+35        <screen
+35-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:21:9-77
+36            android:screenDensity="xxxhdpi"
+36-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:21:17-48
+37            android:screenSize="small" />
+37-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:21:49-75
+38        <screen
+38-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:22:9-78
+39            android:screenDensity="xxxhdpi"
+39-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:22:17-48
+40            android:screenSize="normal" />
+40-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:22:49-76
+41        <screen
+41-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:23:9-77
+42            android:screenDensity="xxxhdpi"
+42-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:23:17-48
+43            android:screenSize="large" />
+43-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:23:49-75
+44        <screen
+44-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:24:9-78
+45            android:screenDensity="xxxhdpi"
+45-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:24:17-48
+46            android:screenSize="xlarge" />
+46-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:24:49-76
+47    </compatible-screens>
+48    <!-- Allows the app to create network sockets and use customized network protocols. The browser and other applications provide means to send data to the internet, so this permission is not required to send data to the internet -->
+49    <uses-permission android:name="android.permission.INTERNET" />
+49-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:27:5-66
+49-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:27:22-64
+50    <!-- Allows the app to view information about network connections such as which networks exist and are connected -->
+51    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+51-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:29:5-78
+51-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:29:22-76
+52    <!-- Allows the app to prevent the phone from going to sleep -->
+53    <uses-permission android:name="android.permission.WAKE_LOCK" />
+53-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:31:5-67
+53-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:31:22-65
+54    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+54-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:32:5-79
+54-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:32:22-77
+55    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+55-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:33:5-73
+55-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:33:22-71
+56    <!-- Allows the app to get a list of accounts known by the phone.This may include accounts created by applications you have installed -->
+57    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+57-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:35:5-70
+57-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:35:22-68
+58    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+58-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:36:5-73
+58-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:36:22-71
+59    <!-- Allows the app to get itself started as soon as the system finishes booting. This can make it take longer to start the phone and allow the app to slow down the overall device by always running -->
+60    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+60-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:38:5-80
+60-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:38:22-78
+61    <!-- Allows the app to control the vibrator -->
+62    <uses-permission android:name="android.permission.VIBRATE" />
+62-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:40:5-65
+62-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:40:22-63
+63    <!-- Allows the app to make use of foreground services -->
+64    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+64-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:42:5-76
+64-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:42:22-74
+65    <!-- Allows the app to display notifications as full screen activities on a locked device -->
+66    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+66-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:44:5-80
+66-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:44:22-78
+67    <!-- Allows the app to accept cloud-to-device messages sent by the app's service. Using this service will incur data usage. malicious apps could cause excess data usage -->
+68    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+68-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:46:5-81
+68-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:46:22-79
+69    <!-- Allows the app to view the configuration of bluetooth on the phone and to make and accept connection with paired devices -->
+70    <uses-permission
+70-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:48:5-94
+71        android:name="android.permission.BLUETOOTH"
+71-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:48:22-65
+72        android:maxSdkVersion="30" />
+72-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:48:66-92
+73    <!-- The app can take pictures and record videos using the camera while the app is in use -->
+74    <uses-permission android:name="android.permission.CAMERA" />
+74-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:50:5-64
+74-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:50:22-62
+75    <!-- Allows the app to read data about your contacts stored on the phone. Apps will also have access to account's on your phone that have created contacts. This may include any accounts created by apps that you have installed.This permission allows any app to save your contacts data, and malicious apps may share contacts data without your knowledge -->
+76    <uses-permission android:name="android.permission.READ_CONTACTS" />
+76-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:52:5-71
+76-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:52:22-69
+77    <uses-permission android:name="android.permission.READ_PROFILE" />
+77-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:53:5-70
+77-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:53:22-68
+78    <!-- This permission allows the app to get the precise location according to Location Services while in use. Location services must be turned on in the device for the app to get the location. This may increase battery usage -->
+79    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+79-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:55:5-78
+79-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:55:22-76
+80    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+80-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:56:5-80
+80-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:56:22-78
+81    <!-- This app can record the audio using the microphone while the app is in use -->
+82    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+82-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:58:5-70
+82-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:58:22-68
+83    <!-- Allows the app to modify global audio settings such as the volume and which speaker is used for output -->
+84    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+84-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:60:5-79
+84-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:60:22-77
+85    <!-- Allows the app to read the contents of shared storage -->
+86    <uses-permission
+86-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:62:5-106
+87        android:name="android.permission.READ_EXTERNAL_STORAGE"
+87-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:62:22-77
+88        android:maxSdkVersion="32" />
+88-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:62:78-104
+89    <!-- Allows the app to read image files from your shared storage -->
+90    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+90-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:11:5-75
+90-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:11:22-73
+91    <!-- Allows the app to read video files from your shared storage -->
+92    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+92-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:9:5-74
+92-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:9:22-72
+93    <!-- Allows the app to read image and video files that you select from shared storage -->
+94    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+94-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:7:5-89
+94-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:7:22-87
+95    <!-- Allows the app to read locations from media collection. -->
+96    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+96-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:70:5-79
+96-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:70:22-77
+97    <!-- Allows a publisher app to access a valid advertising ID directly or indirectly -->
+98    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+98-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:72:5-78
+98-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:72:22-76
+99    <!-- Allows the app to access phone features of the device. This permission allows the app to determine the phone number and device IDS, whether a call is active and the remote number connected by a call. -->
+100    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+100-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:74:5-74
+100-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:74:22-72
+101    <!-- Allows the app to access phone numbers of the device -->
+102    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+102-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:76:5-76
+102-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:76:22-74
+103    <!-- Allows the app to read basic telephony features of the device -->
+104    <uses-permission android:name="android.permission.READ_BASIC_PHONE_STATE" />
+104-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:78:5-80
+104-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:78:22-78
+105    <!-- Allows the app to answer an incoming phone call -->
+106    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+106-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:80:5-76
+106-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:80:22-74
+107    <!-- This app reads your phone call history -->
+108    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+108-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:82:5-71
+108-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:82:22-69
+109    <!-- Allows the app to add home screen shortcuts without user intervention -->
+110    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+110-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:84:5-87
+110-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:84:22-85
+111    <!-- Allows the app to remove home screen shortcuts without user intervention -->
+112    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+112-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:86:5-89
+112-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:86:22-87
+113    <uses-permission android:name="com.socialmediaapplication.direct.permission.PROTECTED_DEEPLINKING" />
+113-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:87:5-105
+113-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:87:22-103
+114    <uses-permission android:name="com.socialmediaapplication.direct.permission.DIRECT_APP_THREAD_STORE_SERVICE" />
+114-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:88:5-115
+114-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:88:22-113
+115    <uses-permission android:name="com.facebook.services.identity.FEO2" />
+115-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:89:5-74
+115-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:89:22-72
+116    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+116-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:90:5-80
+116-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:90:22-78
+117    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+117-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:91:5-82
+117-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:91:22-80
+118    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+118-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:92:5-90
+118-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:92:22-88
+119    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+119-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:93:5-87
+119-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:93:22-85
+120    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+120-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:94:5-91
+120-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:94:22-89
+121    <!-- Allow the app to configure local Bluetooth phone and t discover and pair with remote devices. -->
+122    <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN" />
+122-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:96:5-80
+122-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:96:29-78
+123    <!-- Allows the app to connect and disconnect from Wi-Fi access points and make changes to device configuration for Wi-Fi networks. -->
+124    <uses-permission-sdk-23 android:name="android.permission.CHANGE_WIFI_STATE" />
+124-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:98:5-82
+124-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:98:29-80
+125    <!-- This app can add, remove or change calendar events on your phone. This app can send messages that may appear to come from the calendar owners or change events without notifying their owners. -->
+126    <uses-permission-sdk-23 android:name="android.permission.WRITE_CALENDAR" />
+126-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:100:5-79
+126-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:100:29-77
+127    <!-- Allows the app to make use of foreground services with the type 'dataSyc' -->
+128    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+128-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:102:5-86
+128-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:102:22-84
+129    <!-- Allows the app t make use of foreground services with the type 'mediaPlayback' -->
+130    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+130-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:104:5-91
+130-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:104:22-89
+131    <uses-permission android:name="com.facebook.katana.provider.ACCESS" />
+131-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:105:5-74
+131-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:105:22-72
+132    <!-- Allows an application to access adServices Attribution APIs. -->
+133    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+133-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:107:5-87
+133-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:107:22-85
+134    <!-- Allows an application to access AdId API. -->
+135    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+135-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:109:5-81
+135-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:109:22-79
+136
+137    <uses-feature
+137-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:110:5-112:35
+138        android:name="android.hardware.location.gps"
+138-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:111:9-53
+139        android:required="false" />
+139-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:112:9-33
+140    <uses-feature
+140-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:113:5-115:35
+141        android:name="android.hardware.location"
+141-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:114:9-49
+142        android:required="false" />
+142-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:115:9-33
+143    <uses-feature
+143-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:116:5-118:35
+144        android:name="android.hardware.microphone"
+144-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:117:9-51
+145        android:required="false" />
+145-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:118:9-33
+146    <uses-feature
+146-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:119:5-121:35
+147        android:name="android.hardware.wifi"
+147-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:120:9-45
+148        android:required="false" />
+148-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:121:9-33
+149    <uses-feature
+149-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:122:5-124:35
+150        android:name="android.hardware.camera"
+150-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:123:9-47
+151        android:required="false" />
+151-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:124:9-33
+152    <uses-feature
+152-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:125:5-127:35
+153        android:name="android.hardware.camera.autofocus"
+153-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:126:9-57
+154        android:required="false" />
+154-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:127:9-33
+155    <uses-feature
+155-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:128:5-130:35
+156        android:name="android.hardware.camera.flash"
+156-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:129:9-53
+157        android:required="false" />
+157-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:130:9-33
+158    <uses-feature
+158-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:131:5-133:35
+159        android:name="android.hardware.camera.front"
+159-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:132:9-53
+160        android:required="false" />
+160-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:133:9-33
+161    <uses-feature
+161-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:134:5-136:35
+162        android:name="android.hardware.screen.portrait"
+162-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:135:9-56
+163        android:required="false" />
+163-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:136:9-33
+164    <uses-feature
+164-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:137:5-139:35
+165        android:name="android.hardware.telephony"
+165-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:138:9-50
+166        android:required="false" />
+166-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:139:9-33
+167    <uses-feature
+167-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:140:5-142:35
+168        android:name="android.hardware.bluetooth"
+168-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:141:9-50
+169        android:required="false" />
+169-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:142:9-33
+170    <uses-feature
+170-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:143:5-145:35
+171        android:name="android.hardware.screen.landscape"
+171-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:144:9-57
+172        android:required="false" />
+172-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:145:9-33
+173    <uses-feature
+173-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:146:5-148:34
+174        android:glEsVersion="0x20000"
+174-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:147:9-38
+175        android:required="true" />
+175-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:148:9-32
+176
+177    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+177-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:149:5-78
+177-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:149:26-76
+178    <!-- Allows the app to make use of foreground services with the type 'phoneCall' -->
+179    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_PHONE_CALL" />
+179-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:151:5-87
+179-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:151:22-85
+180    <!-- Allows the app to make use of foreground services with the type 'microphone' -->
+181    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+181-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:153:5-87
+181-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:153:22-85
+182    <uses-permission android:name="android.permission.RUN_USER_INITIATED_JOBS" />
+182-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:154:5-155:72
+182-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:155:13-70
+183
+184    <permission
+185        android:name=".permission.RECEIVE_ADM_MESSAGE"
+186        android:protectionLevel="signature" />
+187
+188    <uses-permission android:name="android.permission.RECEIVE_ADM_MESSAGE" />
+188-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:159:5-77
+188-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:159:22-75
+189    <uses-permission android:name="android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS" />
+189-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:160:5-161:89
+189-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:161:13-87
+190    <!-- Allows the app to connect to paired Bluetooth devices -->
+191    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+191-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:163:5-75
+191-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:163:22-73
+192    <!-- Allows the app to change the state of network connectivity -->
+193    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+193-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:165:5-78
+193-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:165:22-76
+194    <!-- Allows the app to make use of Foreground services with the type 'mediaProjection' -->
+195    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+195-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:167:5-168:84
+195-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:168:13-82
+196    <uses-permission android:name="android.permission.MEDIA_PROJECTION" />
+196-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:169:5-170:65
+196-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:170:13-63
+197    <!-- Allows the app to make use of foreground services with the type 'location' -->
+198    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+198-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:172:5-85
+198-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:172:22-83
+199    <!-- Allows the app to make phone calls without user intervention -->
+200    <uses-permission android:name="android.permission.CALL_PHONE" />
+200-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:174:5-68
+200-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:174:22-66
+201    <!-- Allows the app to retrieve its installer referrer information -->
+202    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+202-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:176:5-109
+202-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:176:22-107
+203    <!-- Allows the app to mak use of foreground services with the type 'camera' -->
+204    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+204-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:178:5-83
+204-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:178:22-81
+205    <uses-permission android:name="com.socialmediaapplication.CROSS_PROCESS_BROADCAST_MANAGER" />
+205-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:179:5-97
+205-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:179:22-95
+206    <!-- Allows the app to make use of foreground services with the type 'connectedDevices' -->
+207    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+207-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:181:5-182:84
+207-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:182:13-82
+208    <!-- Allows the app to use biometric hardware for authentication -->
+209    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+209-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:184:5-185:62
+209-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:185:13-60
+210    <!-- Allows the app to route its call through the system in order to improve the calling experience -->
+211    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+211-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:187:5-188:65
+211-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:188:13-63
+212    <!-- Allows the user to purchase items through Google play from within this app -->
+213    <uses-permission android:name="com.android.vending.BILLING" />
+213-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:190:5-66
+213-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:190:22-64
+214
+215    <permission
+215-->[androidx.core:core:1.13.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\00e9b8b4996a7450a6b3f598f2e4557e\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+216        android:name="com.socialmediaapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+216-->[androidx.core:core:1.13.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\00e9b8b4996a7450a6b3f598f2e4557e\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+217        android:protectionLevel="signature" />
+217-->[androidx.core:core:1.13.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\00e9b8b4996a7450a6b3f598f2e4557e\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+218
+219    <uses-permission android:name="com.socialmediaapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+219-->[androidx.core:core:1.13.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\00e9b8b4996a7450a6b3f598f2e4557e\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+219-->[androidx.core:core:1.13.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\00e9b8b4996a7450a6b3f598f2e4557e\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+220
+221    <application
+221-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:203:5-224:19
+222        android:allowBackup="true"
+222-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:204:13-39
+223        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+223-->[androidx.core:core:1.13.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\00e9b8b4996a7450a6b3f598f2e4557e\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+224        android:dataExtractionRules="@xml/data_extraction_rules"
+224-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:205:13-69
+225        android:debuggable="true"
+226        android:extractNativeLibs="false"
+227        android:fullBackupContent="@xml/backup_rules"
+227-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:206:13-58
+228        android:hardwareAccelerated="true"
+228-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:210:13-47
+229        android:icon="@mipmap/icon"
+229-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:207:13-40
+230        android:label="@string/app_name"
+230-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:208:13-45
+231        android:largeHeap="true"
+231-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:211:13-37
+232        android:roundIcon="@mipmap/icon"
+232-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:209:13-45
+233        android:supportsRtl="true"
+233-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:212:13-39
+234        android:testOnly="true"
+235        android:theme="@style/Base.Theme.SocialMediaApplication" >
+235-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:213:13-69
+236        <activity
+236-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:215:9-223:20
+237            android:name="com.socialmediaapplication.MainActivity"
+237-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:216:17-45
+238            android:exported="true" >
+238-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:217:17-40
+239            <intent-filter>
+239-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:218:13-222:29
+240                <action android:name="android.intent.action.MAIN" />
+240-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:219:17-68
+240-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:219:25-66
+241
+242                <category android:name="android.intent.category.LAUNCHER" />
+242-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:221:17-76
+242-->C:\Users\victo\IdeaProjects\SocialMediaApplication\app\src\main\AndroidManifest.xml:221:27-74
+243            </intent-filter>
+244        </activity>
+245
+246        <provider
+246-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\7dec3aeae08195e955cc227fdeedb145\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+247            android:name="androidx.startup.InitializationProvider"
+247-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\7dec3aeae08195e955cc227fdeedb145\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+248            android:authorities="com.socialmediaapplication.androidx-startup"
+248-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\7dec3aeae08195e955cc227fdeedb145\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+249            android:exported="false" >
+249-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\7dec3aeae08195e955cc227fdeedb145\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+250            <meta-data
+250-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\7dec3aeae08195e955cc227fdeedb145\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+251                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+251-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\7dec3aeae08195e955cc227fdeedb145\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+252                android:value="androidx.startup" />
+252-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\7dec3aeae08195e955cc227fdeedb145\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+253            <meta-data
+253-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo\.gradle\caches\8.11.1\transforms\241772d0283d36f0540062c5b78fd5d8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+254-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo\.gradle\caches\8.11.1\transforms\241772d0283d36f0540062c5b78fd5d8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+255                android:value="androidx.startup" />
+255-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo\.gradle\caches\8.11.1\transforms\241772d0283d36f0540062c5b78fd5d8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+256            <meta-data
+256-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+257                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+258                android:value="androidx.startup" />
+258-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+259        </provider>
+260
+261        <receiver
+261-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+262            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+262-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+263            android:directBootAware="false"
+263-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+264            android:enabled="true"
+264-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+265            android:exported="true"
+265-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+266            android:permission="android.permission.DUMP" >
+266-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+267            <intent-filter>
+267-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+268                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+268-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+268-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+269            </intent-filter>
+270            <intent-filter>
+270-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+271                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+271-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+271-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+272            </intent-filter>
+273            <intent-filter>
+273-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+274                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+274-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+274-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+275            </intent-filter>
+276            <intent-filter>
+276-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+277                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+277-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+277-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\victo\.gradle\caches\8.11.1\transforms\eeaec953bef50c0c1abfedd3a961e6d7\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+278            </intent-filter>
+279        </receiver>
+280    </application>
+281
+282</manifest>

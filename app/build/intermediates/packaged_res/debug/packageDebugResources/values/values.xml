@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#c2bdbf</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorPrimary">#455cde</color>
+    <color name="colorPrimaryDark">#000d3d</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <string name="app_name">AndroidApplication</string>
+    <string name="bio">Bio</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="full_name">Full name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_out">Log-Out</string>
+    <string name="none">none</string>
+    <string name="settings">Settings</string>
+    <string name="username">Username</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Base.Theme.SocialMediaApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Base.Theme.SocialMediaApplication." parent="Base.Theme.SocialMediaApplication"/>
+</resources>
