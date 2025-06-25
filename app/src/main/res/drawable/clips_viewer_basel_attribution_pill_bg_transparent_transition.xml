@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/clips_viewer_basel_attribution_pill_bg_transition_second" />
+    <item
+        android:drawable="@drawable/clips_viewer_basel_attribution_pill_bg_transition_transparent" />
+</transition>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="?igds_color_secondary_background" />
+            <size
+                android:height="@dimen/account_preview_media_end_card_padding"
+                android:width="@dimen/account_preview_media_end_card_padding" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/red_dot" />
+</layer-list>

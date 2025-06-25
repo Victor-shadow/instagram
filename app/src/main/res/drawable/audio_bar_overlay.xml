@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/black_60_transparent" />
+    <corners
+        android:radius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding" />
+    <stroke
+        android:width="@dimen/action_sheet_divider_margin_top"
+        android:color="@color/gallery_share_button_bg" />
+</shape>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true">
+        <shape>
+            <solid
+                android:color="@color/saved_tab_background_fill_color" />
+            <corners
+                android:radius="@dimen/direct_inbox_filter_pill_radius" />
+        </shape>
+    </item>
+    <item
+        android:state_selected="false">
+        <shape>
+            <solid
+                android:color="@color/black_0_transparent" />
+            <stroke
+                android:width="@dimen/afi_segmented_pill_border_width"
+                android:color="@color/saved_tab_background_border_color" />
+            <corners
+                android:radius="@dimen/direct_inbox_filter_pill_radius" />
+        </shape>
+    </item>
+</selector>

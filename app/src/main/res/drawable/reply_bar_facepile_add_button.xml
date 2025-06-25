@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <size
+                android:height="24.0dip"
+                android:width="24.0dip" />
+            <solid
+                android:color="@color/grey_20" />
+        </shape>
+    </item>
+    <item
+        android:left="4.0dip"
+        android:top="4.0dip"
+        android:right="4.0dip"
+        android:bottom="4.0dip">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/instagram_add_filled_12"
+            android:tint="@color/solid_white" />
+    </item>
+</layer-list>

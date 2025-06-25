@@ -249,5 +249,395 @@
     <dimen name="challenge_winner_v2_3_winner_2_submission_margin_top">-4.0dip</dimen>
     <dimen name="challenge_winner_v2_3_winners_prompt_margin_left">-18.0dip</dimen>
     <dimen name="challenge_winner_v2_3_winners_submission_height">154.0dip</dimen>
-
+    <item type="dimen" name="challenge_winner_v2_left_rotation_medium">-10.0</item>
+    <item type="dimen" name="challenge_winner_v2_left_rotation_small">-4.0</item>
+    <dimen name="challenge_winner_v2_mention_max_width">600.0dip</dimen>
+    <item type="dimen" name="challenge_winner_v2_right_rotation_small">4.0</item>
+    <dimen name="challenge_winners_sticker_1_winner_column_height">405.0dip</dimen>
+    <dimen name="challenge_winners_sticker_2_column_width">151.0dip</dimen>
+    <dimen name="challenge_winners_sticker_2_winner_column_height">350.0dip</dimen>
+    <dimen name="chat_sticker_width">215.0dip</dimen>
+    <dimen name="checkout_shimmer_loading_row_corner_radius">7.299988dip</dimen>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_line_1">0.62</item>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_line_2">0.45</item>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_title">0.23</item>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_1">0.36</item>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_2">0.49</item>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_3">0.57</item>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_4">0.68</item>
+    <item type="dimen" name="checkout_shimmer_loading_row_width_percentage_top_section_line_5">0.51</item>
+    <dimen name="checkout_signaling_caret_pdp_horizontal_padding">2.0sp</dimen>
+    <dimen name="clips_ad_debug_overlay_close_icon_size">18.0sp</dimen>
+    <dimen name="clips_audio_browser_audiomixing_height">382.0dip</dimen>
+    <dimen name="clips_audio_mixing_screen_height">366.0dip</dimen>
+    <dimen name="clips_audiomixing_bottom_margin_size">38.0dip</dimen>
+    <item type="dimen" name="clips_control_music_button_radius">@dimen/abc_button_inset_vertical_material</item>
+    <item type="dimen" name="clips_control_music_button_stroke_width">@dimen/abc_control_corner_material</item>
+    <item type="dimen" name="clips_countdown_view_parent_view_ratio">0.55</item>
+    <dimen name="clips_editor_stacked_timeline_reorder_mode_thumbnail_height">101.0dip</dimen>
+    <dimen name="clips_editor_stacked_timeline_reorder_mode_thumbnail_height_enlarged">114.0dip</dimen>
+    <dimen name="clips_editor_stacked_timeline_reorder_mode_thumbnail_width_enlarged">63.0dip</dimen>
+    <dimen name="clips_editor_timeline_v3_drawer_height">272.0dip</dimen>
+    <dimen name="clips_editor_v3_timeline_transition_selector_margin_negative">-16.0dip</dimen>
+    <dimen name="clips_fullcard_auto_created_reel_video_height">364.0dip</dimen>
+    <dimen name="clips_fullcard_primary_video_height">249.0dip</dimen>
+    <dimen name="clips_grid_page_constraintguide_begin">166.0dip</dimen>
+    <dimen name="clips_grid_page_ghost_text_width_1">129.0dip</dimen>
+    <dimen name="clips_grid_page_thumbnail_height_vertical">146.0dip</dimen>
+    <dimen name="clips_mega_card_center_video_height">468.0dip</dimen>
+    <dimen name="clips_mega_card_center_video_width">263.0dip</dimen>
+    <dimen name="clips_midcard_three_clips_adjacent_video_height_new_design">225.0dip</dimen>
+    <dimen name="clips_midcard_three_clips_adjacent_video_width_new_design">127.0dip</dimen>
+    <dimen name="clips_midcard_three_clips_center_video_height_new_design">325.0dip</dimen>
+    <dimen name="clips_midcard_three_clips_center_video_height_new_design_for_wearables">244.0dip</dimen>
+    <dimen name="clips_midcard_three_clips_center_video_new_width_design">183.0dip</dimen>
+    <dimen name="clips_multiads_mega_card_description_title_text_height">24.0sp</dimen>
+    <dimen name="clips_multiads_mega_card_description_title_text_size">22.0sp</dimen>
+    <dimen name="clips_multiads_tall_headline_legibility_gradient_height">136.0dip</dimen>
+    <dimen name="clips_netego_background_gradient_height">111.0dp</dimen>
+    <dimen name="clips_netego_card_height">222.5dip</dimen>
+    <dimen name="clips_netego_card_height_large">480.0dip</dimen>
+    <dimen name="clips_netego_card_height_medium">283.0dip</dimen>
+    <dimen name="clips_netego_card_width">125.0dip</dimen>
+    <dimen name="clips_netego_card_width_medium">158.0dip</dimen>
+    <item type="dimen" name="clips_segment_button_size">@dimen/abc_alert_dialog_button_dimen</item>
+    <dimen name="clips_suggested_creators_card_max_height">232.0dip</dimen>
+    <dimen name="clips_suggested_user_grid_container_max_height">506.0dip</dimen>
+    <dimen name="clips_viewer_media_info_ufi_button_side_margin">-8.0dip</dimen>
+    <dimen name="clips_viewer_media_profile_in_ufi_large_follow_button_top_margin">33.0dip</dimen>
+    <dimen name="clips_viewer_media_username_med_top_expansion_padding">8.5dip</dimen>
+    <item type="dimen" name="clips_viewer_social_context_shadow_radius">8.0</item>
+    <dimen name="clock_face_margin_start">64.0dip</dimen>
+    <item type="dimen" name="cluster_item_horizontal_overlap_factor">0.4</item>
+    <dimen name="color_picker_gradient_margin">14.5dip</dimen>
+    <item type="dimen" name="comment_cta_header_text_letter_spacing">-0.01</item>
+    <dimen name="comment_input_row_avatar_suggestion_vertical_padding">5.5dip</dimen>
+    <dimen name="comment_share_netego_sticker_width">168.0dip</dimen>
+    <item type="dimen" name="common_decorated_message_shimmer_shimmer_basic_alpha">0.1</item>
+    <item type="dimen" name="common_decorated_message_shimmer_shimmer_highlight_alpha">0.3</item>
+    <dimen name="community_chat_warning_circle_radius">360.0dip</dimen>
+    <dimen name="composer_story_comments_drop_down_height">340.0dip</dimen>
+    <dimen name="composer_story_comments_post_button_translate_y">-2.0dip</dimen>
+    <dimen name="config_minScalingSpan">27.0mm</dimen>
+    <dimen name="config_min_scaling_span">12.0mm</dimen>
+    <dimen name="container_height">54.0dip</dimen>
+    <dimen name="content_title_margin_top">36.5dip</dimen>
+    <dimen name="contextual_sticker_expanded_title_divider_width">0.39999998dip</dimen>
+    <dimen name="contextual_sticker_text_size_for_vic">28.0sp</dimen>
+    <dimen name="contextual_sticker_tray_text_size">26.0sp</dimen>
+    <dimen name="countdown_sticker_graduation_variant_title_image_width">230.0dip</dimen>
+    <dimen name="countdown_timer_sec_hint">48.0sp</dimen>
+    <item type="dimen" name="creator_inspiration_hub_pill_alpha">0.7</item>
+    <item type="dimen" name="cta_selector_horizontal_margin">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
+    <dimen name="cutout_anything_sticker_animation_margin">85.0dip</dimen>
+    <item type="dimen" name="daily_prompt_sticker_title_text_size">@dimen/font_xxlarge</item>
+    <dimen name="daily_prompt_sticker_width">258.0dip</dimen>
+    <dimen name="daily_prompts_card_margin_top">51.0dip</dimen>
+    <item type="dimen" name="default_disabled_alpha">0.38</item>
+    <item type="dimen" name="default_focused_alpha">0.06</item>
+    <item type="dimen" name="default_hovered_alpha">0.04</item>
+    <item type="dimen" name="default_icon_pressed_alpha">0.5</item>
+    <dimen name="design_navigation_max_width">280.0dip</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">128.0dip</dimen>
+    <dimen name="design_snackbar_background_corner_radius">0.0dip</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">0.0dip</dimen>
+    <dimen name="design_snackbar_max_width">-1.0px</dimen>
+    <dimen name="design_snackbar_min_width">-1.0px</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">16.0dip</dimen>
+    <dimen name="design_tab_scrollable_min_width">72.0dip</dimen>
+    <dimen name="direct_avatar_presence_badge_size_xl">18.669983dip</dimen>
+    <dimen name="direct_clips_stack_message_height">256.0dip</dimen>
+    <dimen name="direct_drawable_padding_size">5.0dip</dimen>
+    <dimen name="direct_group_details_msg_close_margin_start">316.0dip</dimen>
+    <dimen name="direct_group_details_msg_dialog_height">218.0dip</dimen>
+    <dimen name="direct_inbox_filter_pill_radius">99.0dip</dimen>
+    <item type="dimen" name="direct_message_composer_action_item_padding">@dimen/abc_button_padding_horizontal_material</item>
+    <item type="dimen" name="direct_message_composer_edittext_padding_end">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
+    <dimen name="direct_multi_media_message_fixed_height">210.0dip</dimen>
+    <dimen name="direct_null_state_name_bg_layout_height">102.0dip</dimen>
+    <item type="dimen" name="direct_quoted_bar_close_button_margin_end">@dimen/abc_button_inset_vertical_material</item>
+    <dimen name="direct_recs_from_friends_sender_reaction_pill_translation_y">-62.0dip</dimen>
+    <dimen name="direct_reel_reshare_friendly_bubble_anim_from_y_delta">-1.0dip</dimen>
+    <dimen name="direct_reels_blend_top_right_badge_margin">-1.5dip</dimen>
+    <dimen name="direct_reply_avatar_button_double_overlap_offset">4.5dip</dimen>
+    <dimen name="direct_reply_modal_private_reply_non_comment_content_height">186.0dip</dimen>
+    <item type="dimen" name="direct_row_message_content_avatar_spacing_large">@dimen/action_bar_item_spacing_right</item>
+    <dimen name="direct_row_message_emoji_text_size">30.0sp</dimen>
+    <dimen name="direct_row_message_load_more_bottom_padding">47.0dip</dimen>
+    <item type="dimen" name="direct_row_message__sidebar_width">@dimen/avatar_sticker_max_height</item>
+    <item type="dimen" name="direct_row_message_sidebar_width_v2">@dimen/album_preview_add_item_circle_size</item>
+    <dimen name="direct_standard_xma_grid_view_height">78.0dip</dimen>
+    <item type="dimen" name="direct_video_memo_camera_start_scale">0.9</item>
+    <dimen name="direct_voice_messaging_lock_button_offset">-136.0dip</dimen>
+    <item type="dimen" name="drag_shadow_max_size_to_window_ratio">0.35</item>
+    <item type="dimen" name="drag_shadow_resize_ratio">0.6</item>
+    <dimen name="dynamic_ads_picker_padding_top">89.0dip</dimen>
+    <dimen name="edit_profile_frame_pop_offset">7.1999817dip</dimen>
+    <dimen name="editing_disclaimer_top_margin">20.5dip</dimen>
+    <dimen name="effect_bottom_sheet_header_width">275.0dip</dimen>
+    <dimen name="effect_mini_gallery_saved_state_subtitle_margin_top">198.0dip</dimen>
+    <dimen name="eu_stamp_icon_end_spacing">-45.0dip</dimen>
+    <dimen name="facepile_label_max_width">114.69998dip</dimen>
+    <dimen name="failed_upload_indicator_size_small">17.199982dip</dimen>
+    <dimen name="fb_polling_background_corner_radius">37.5dip</dimen>
+    <item type="dimen" name="fbui_dialog_min_width_major">65.0%</item>
+    <item type="dimen" name="fbui_dialog_min_width_minor">95.00001%</item>
+    <item type="dimen" name="fbui_popover_window_anim_enter_min_alpha">0.0</item>
+    <item type="dimen" name="fbui_popover_window_anim_exit_min_alpha">0.28</item>
+    <item type="dimen" name="fbui_popover_window_anim_min_scale">0.85</item>
+    <item type="dimen" name="fbui_popover_window_anim_pivot_bottom">90.0%</item>
+    <item type="dimen" name="fbui_popover_window_anim_pivot_center">50.0%</item>
+    <item type="dimen" name="fbui_popover_window_anim_pivot_top">10.000002%</item>
+    <item type="dimen" name="fbui_popover_window_interpolator_tension">0.8</item>
+    <dimen name="fbui_popover_window_max_width">0.0dip</dimen>
+    <dimen name="fbui_text_size_large">16.0sp</dimen>
+    <dimen name="fbui_text_size_micro">8.0sp</dimen>
+    <dimen name="fbui_text_size_xlarge_xxlarge">19.0sp</dimen>
+    <dimen name="fbui_text_size_xxxlarge_5">32.0sp</dimen>
+    <dimen name="fbui_text_size_xxxlarge_6">36.0sp</dimen>
+    <dimen name="featured_user_story_ring_size">98.0dip</dimen>
+    <dimen name="feed_delayed_skip_toast_countdown_ring_width">2.1999817dip</dimen>
+    <item type="dimen" name="field_with_glyph_right_padding">@dimen/account_discovery_bottom_gap</item>
+    <dimen name="filter_label_text_bottom">19.5dip</dimen>
+    <dimen name="follow_upsell_text_and_avatar_vertical_padding">11.599976dip</dimen>
+    <dimen name="font_smaller_medium">12.5sp</dimen>
+    <dimen name="font_xxlarge">27.0sp</dimen>
+    <dimen name="full_height_media_shimmer_comment_width">294.0dip</dimen>
+    <dimen name="full_width_product_tile_width">375.0dip</dimen>
+    <dimen name="fundraiser_sticker_consumption_sheet_donation_cta_vertical_padding">13.5dip</dimen>
+    <item type="dimen" name="fundraiser_sticker_halfsheet_neue_header_text_line_spacing_multiplier">1.15</item>
+    <item type="dimen" name="fundraiser_sticker_title_text_size">@dimen/abc_dialog_padding_material</item>
+    <dimen name="fx_ig_unified_ac_upsell_bottom_sheet_subtitle_margin_bottom">33.44998dip</dimen>
+    <dimen name="gallery_grid_format_thumbnail_height">262.0dip</dimen>
+    <dimen name="gallery_item_selector_circle_border_stroke_width_prism">0.25dip</dimen>
+    <dimen name="grid_card_layout_edge_radius_stroke">0.75dip</dimen>
+    <dimen name="group_mention_sticker_title_text_size">35.0sp</dimen>
+    <dimen name="group_mention_sticker_title_text_size_min">25.0sp</dimen>
+    <dimen name="group_mention_sticker_title_text_size_step">1.0sp</dimen>
+    <dimen name="hashtag_feed_header_follow_button_placeholder_width">233.29999dip</dimen>
+    <dimen name="hashtag_feed_header_followers_placeholder_height">19.599976dip</dimen>
+    <dimen name="hashtag_feed_header_top_posts_placeholder_width">149.0dp</dimen>
+    <dimen name="hashtag_netego_tombstone_height">265.0dip</dimen>
+    <item type="dimen" name="highlight_alpha_material_colored">0.26</item>
+    <dimen name="highlight_card_width">93.0dip</dimen>
+    <item type="dimen" name="hint_pressed_alpha_material_light">0.54</item>
+    <dimen name="horizontal_list_thumbnail_size">152.0dip</dimen>
+    <dimen name="iconic_note_stroke_width">1.3999939dip</dimen>
+    <dimen name="ig_logo_top_margin">142.0dip</dimen>
+    <dimen name="ig_notification_messages_admin_text_initial_bottom_sheet_height">167.0dip</dimen>
+    <item type="dimen" name="igds_text_on_media_shadow_radius">3.0</item>
+    <dimen name="iglive_donations_donor_list_header_height">105.0dip</dimen>
+    <dimen name="iglive_sup_toggle_view_height">207.0dip</dimen>
+    <dimen name="igtv_feed_preview_sound_tooltip_above_anchor_point_y">-24.0dip</dimen>
+    <dimen name="igvr_modal_height">550.0dip</dimen>
+    <dimen name="igvr_modal_padding">20.0dip</dimen>
+    <dimen name="igvr_modal_shadow_blur">10.0dip</dimen>
+    <dimen name="igvr_modal_width">400.0dip</dimen>
+    <dimen name="image_section_height">261.0dip</dimen>
+    <dimen name="imagine_sticker_width">123.0dip</dimen>
+    <dimen name="in_app_notification_container_height">87.0dip</dimen>
+    <dimen name="insights_line_retention_chart_tooltip_container_width">131.0dip</dimen>
+    <dimen name="intent_aware_ad_rifu_card_height">222.0dip</dimen>
+    <dimen name="intent_aware_ad_rifu_card_large_height">275.27344dip</dimen>
+    <dimen name="intent_aware_ad_rifu_card_large_width">155.0dip</dimen>
+    <item type="dimen" name="interactive_response_cancel_button_text_size">@dimen/clips_ad_debug_overlay_close_icon_size</item>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dp</dimen>
+    <dimen name="large_video_note_in_reply_bottomsheet_size">178.0dip</dimen>
+    <dimen name="likes_container_height_dimen">73.0dip</dimen>
+    <dimen name="live_indicator_corner_radius">1.1499939dip</dimen>
+    <dimen name="live_indicator_icon_size">4.6099854dip</dimen>
+    <dimen name="live_indicator_padding">1.7299805dip</dimen>
+    <dimen name="login_history_map_width">292.0dip</dimen>
+    <dimen name="magic_media_remix_media_container_width">194.0dip</dimen>
+    <dimen name="main_feed_placeholder_comment_width">293.0dip</dimen>
+    <dimen name="material_bottom_sheet_max_width">640.0dip</dimen>
+    <item type="dimen" name="material_emphasis_high_type">0.87</item>
+    <dimen name="material_textinput_max_width">488.0dip</dimen>
+    <dimen name="material_time_picker_minimum_screen_height">560.0dip</dimen>
+    <dimen name="material_time_picker_minimum_screen_width">340.0dip</dimen>
+    <item type="dimen" name="media_preview_ratio">0.2</item>
+    <dimen name="media_tag_indicator_padding">6.5dip</dimen>
+    <dimen name="media_thumbnail_preview_item_height">208.0dip</dimen>
+    <dimen name="memory_card_height">297.0dip</dimen>
+    <dimen name="memory_subtitle_text_size">0.0sp</dimen>
+    <dimen name="menu_sticker_edit_bottom_text_width">306.0dip</dimen>
+    <dimen name="menu_popup_panel_shadow_offset">-11.0dip</dimen>
+    <dimen name="merchandising_badge_letter_spacing">0.01999998dip</dimen>
+    <dimen name="message_share_sticker_min_height">245.0dip</dimen>
+    <dimen name="messaging_ads_multi_suggestions_card_height">238.0dip</dimen>
+    <dimen name="messaging_ads_multi_suggestions_thumbnail_height">138.0dip</dimen>
+    <dimen name="meta_gallery_stories_netego_left_image_translation">-80.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">80.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_height">56.0dip</dimen>
+    <dimen name="mtrl_calendar_day_corner">15.0dip</dimen>
+    <dimen name="mtrl_calendar_day_height">32.0dip</dimen>
+    <dimen name="mtrl_calendar_day_horizontal_padding">3.0dip</dimen>
+    <dimen name="mtrl_calendar_day_vertical_padding">1.0dip</dimen>
+    <dimen name="mtrl_calendar_day_width">36.0dip</dimen>
+    <dimen name="mtrl_calendar_days_of_week_height">24.0dip</dimen>
+    <dimen name="mtrl_calendar_month_horizontal_padding">2.0dip</dimen>
+    <item type="dimen" name="mtrl_high_ripple_default_alpha">0.24</item>
+    <item type="dimen" name="mtrl_low_ripple_default_alpha">0.12</item>
+    <item type="dimen" name="music_bottom_sheet_preview_button_size">@dimen/account_preview_media_end_card_padding</item>
+    <dimen name="music_pick_author_container_size">139.0dip</dimen>
+    <dimen name="music_sticker_max_width">335.0dip</dimen>
+    <dimen name="netego_share_comment_to_story_feed_sticker_width">271.0dip</dimen>
+    <item type="dimen" name="netego_share_comment_to_story_video_width_percent">0.584</item>
+    <dimen name="netego_simple_action_tile_text_size">29.0sp</dimen>
+    <dimen name="netego_threads_in_stories_card_large_max_height">550.0dip</dimen>
+    <dimen name="netego_threads_in_stories_card_large_max_image_height">380.0dip</dimen>
+    <dimen name="new_badge_redesign_vertical_offset">-7.0dip</dimen>
+    <dimen name="news_feed_placeholder_profile_radius">22.5dip</dimen>
+    <dimen name="news_feed_placeholder_section_three_long_rect_width">153.5dip</dimen>
+    <dimen name="news_feed_placeholder_section_three_short_rect_width">74.5dip</dimen>
+    <dimen name="news_feed_placeholder_standard_paragraph_text_width">193.5dip</dimen>
+    <dimen name="news_feed_placeholder_text_position">72.5dip</dimen>
+    <dimen name="news_feed_placeholder_text_short_width">104.5dip</dimen>
+    <dimen name="own_reel_badge_updated_size">26.5dip</dimen>
+    <dimen name="pics_please_editor_contribution_button_size">118.0dip</dimen>
+    <dimen name="pics_please_editor_info_text_width">214.0dip</dimen>
+    <dimen name="poll_card_padding_vertical">3.2599792dip</dimen>
+    <dimen name="poll_profile_picture_outline_size">3.2999878dip</dimen>
+    <dimen name="poll_profile_picture_size">3.0699768dip</dimen>
+    <dimen name="poll_text_font_size">2.5799866dip</dimen>
+    <item type="dimen" name="poll_v2_sticker_result_percentage_text_size">@dimen/abc_select_dialog_padding_start_material</item>
+    <item type="dimen" name="poll_v2_sticker_title_text_size">@dimen/ai_agent_share_profile_sticker_padding</item>
+    <dimen name="poll_vote_bar_corner_radius">1.9199829dip</dimen>
+    <dimen name="poll_vote_bar_facepile_outline_x_translation">2.0699768dip</dimen>
+    <dimen name="poll_vote_bar_facepile_x_translation">2.2999878dip</dimen>
+    <dimen name="poll_vote_bar_height">1.539978dip</dimen>
+    <dimen name="poll_vote_bar_option_1_animation_end_width">29.179993dip</dimen>
+    <dimen name="poll_vote_bar_option_1_animation_start_width">14.589996dip</dimen>
+    <dimen name="poll_vote_bar_option_2_animation_end_width">20.73999dip</dimen>
+    <dimen name="poll_vote_bar_option_2_animation_midpoint_width">13.829987dip</dimen>
+    <dimen name="poll_vote_bar_option_2_animation_start_width">6.909973dip</dimen>
+    <dimen name="poll_vote_bar_padding_vertical">0.77dip</dimen>
+    <dimen name="prism_avatar_size_large_device_parity_variant">80.5dip</dimen>
+    <dimen name="prism_avatar_size_medium_device_parity_variant">69.59997dip</dimen>
+    <dimen name="prism_avatar_size_small_device">55.5dip</dimen>
+    <dimen name="prism_avatar_size_small_device_parity_variant">60.399994dip</dimen>
+    <dimen name="prism_avatar_story_ring_size_large_device_parity_variant">95.69998dip</dimen>
+    <dimen name="prism_avatar_story_ring_size_medium_device">76.5dip</dimen>
+    <dimen name="prism_avatar_story_ring_size_medium_device_parity_variant">83.29999dip</dimen>
+    <dimen name="prism_avatar_story_ring_size_small_device_parity_variant">71.79999dip</dimen>
+    <dimen name="prism_avatar_story_ring_width_large_device">3.1999817dip</dimen>
+    <dimen name="prism_avatar_story_ring_width_medium_device">3.26999817dip</dimen>
+    <dimen name="prism_avatar_story_ring_width_small_device">2.399994dip</dimen>
+    <dimen name="product_collection_header_content_tile_title_line_height">34.0sp</dimen>
+    <dimen name="product_list_cell_sticker_stroke_width">0.20000005dip</dimen>
+    <dimen name="product_source_load_more_row_height">48.5dip</dimen>
+    <dimen name="product_sticker_text_size">37.0sp</dimen>
+    <dimen name="product_sticker_text_size_larger">42.0sp</dimen>
+    <dimen name="profile_cobroadcast_avatar_bg_circle_size">71.0dip</dimen>
+    <dimen name="profile_header_avatar_size_new">79.0dip</dimen>
+    <dimen name="profile_header_placeholder_edit_btn_height">25.5dip</dimen>
+    <item type="dimen" name="profile_pull_to_refresh_stroke_width">1.5</item>
+    <item type="dimen" name="profile_sheet_title_text_size">@dimen/account_group_management_row_text_size</item>
+    <dimen name="promo_video_margin">8.0dip</dimen>
+    <dimen name="promo_video_margin_top">20.0dip</dimen>
+    <dimen name="promo_video_thumbnail_height">153.0dip</dimen>
+    <dimen name="promo_video_thumbnail_width">90.0dip</dimen>
+    <dimen name="promote_double_thumbnail_size">42.5dip</dimen>
+    <item type="dimen" name="promote_row_with_subtitle_labeled_chevron_layout_weight_secondary">0.01</item>
+    <dimen name="prompt_2_profiles_facepile_x_translation">1.3399963dip</dimen>
+    <dimen name="prompt_3_profiles_facepile_x_translation">2.6799927dip</dimen>
+    <dimen name="prompt_background_card_1_finish_start_margin">14.879974dip</dimen>
+    <dimen name="prompt_background_card_2_finish_top_margin">3.0499878dip</dimen>
+    <dimen name="prompt_card_height">40.649994dip</dimen>
+    <dimen name="prompt_card_padding_horizontal">2.149994dip</dimen>
+    <dimen name="prompt_card_padding_vertical">2.289978dip</dimen>
+    <dimen name="prompt_card_profile_picture_outline_size">4.769989dip</dimen>
+    <dimen name="prompt_card_profile_picture_size">4.5799866dip</dimen>
+    <dimen name="prompt_card_width">30.539978dip</dimen>
+    <dimen name="prompt_center_card_start_margin">7.869995dip</dimen>
+    <dimen name="prompt_center_card_top_margin">9.069977dip</dimen>
+    <dimen name="prompt_facepile_outline_width">0.00999999dip</dimen>
+    <item type="dimen" name="prompt_sticker_title_text_line_spacing_multiplier">1.06</item>
+    <dimen name="pulse_animation_bottom_margin_consumption">-192.0dip</dimen>
+    <dimen name="pulse_animation_bottom_margin_creation">-128.0dip</dimen>
+    <item type="dimen" name="push_interpolator_x1">0.14</item>
+    <item type="dimen" name="push_interpolator_x2">0.34</item>
+    <item type="dimen" name="question_bottom_sheet_title_container_height">@dimen/abc_alert_dialog_button_dimen</item>
+    <dimen name="question_music_bottom_sheet_text_response_height">184.0dip</dimen>
+    <dimen name="question_response_bottom_sheet_height">408.0dip</dimen>
+    <item type="dimen" name="question_response_card_response_text_max_size">@dimen/auth_title_text_size</item>
+    <dimen name="quick_send_popup_window_container_width">345.0dip</dimen>
+    <item type="dimen" name="quiz_sticker_corner_radius">@dimen/account_discovery_bottom_gap</item>
+    <dimen name="reaction_max_gravity">-300.0dip</dimen>
+    <dimen name="reaction_max_pos_y_delta">-200.0dip</dimen>
+    <dimen name="reaction_min_gravity">-150.0dip</dimen>
+    <dimen name="reel_branding_badge_size_large">25.299988dip</dimen>
+    <dimen name="reel_context_sheet_header_height">82.5dip</dimen>
+    <dimen name="reel_context_sheet_large_margin_bottom">24.5dip</dimen>
+    <dimen name="reel_glyph_badge_size_large">20.699982dip</dimen>
+    <item type="dimen" name="reel_item_action_button_padding_start">@dimen/abc_select_dialog_padding_start_material</item>
+    <item type="dimen" name="reel_swipe_up_guidance_padding">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
+    <dimen name="reel_viewer_camera_distance">5500.0dip</dimen>
+    <dimen name="reels_carousel_nux_body_width">311.0dip</dimen>
+    <dimen name="refinements_header_destination_item_placeholder_standard_width">63.5dip</dimen>
+    <item type="dimen" name="reg_margin_screen_vertical">@dimen/action_bar_centered_headers_reels_icon_size</item>
+    <dimen name="reg_or_divider_padding">12.0dip</dimen>
+    <item type="dimen" name="reg_page_side_margin">@dimen/abc_star_medium</item>
+    <item type="dimen" name="reg_tertiary_text_link_line_spacing_multiplier">1.1</item>
+    <item type="dimen" name="requests_button_row_height">@dimen/abc_alert_dialog_button_dimen</item>
+    <dimen name="roll_call_countdown_overlay_text_size">64.0sp</dimen>
+    <dimen name="row_comment_media_thumbnail_width">81.0dip</dimen>
+    <dimen name="scrubber_thumbnail_radius">30.0dp</dimen>
+    <dimen name="search_pill_long_shimmer_width">175.0dip</dimen>
+    <dimen name="search_row_dense_text_row_subtitle_width">115.0dip</dimen>
+    <dimen name="segmented_progress_bar_default_height">1.5999756di</dimen>
+    <item type="dimen" name="share_option_horizontal_padding">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
+    <item type="dimen" name="share_professional_profile_background_corner_radius_without_images">@dimen/abc_button_inset_vertical_material</item>
+    <item type="dimen" name="share_profile_sticker_bio_bottom_margin">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
+    <dimen name="sharesheet_divider_height">0.5px</dimen>
+    <dimen name="shh_max_gravity">2800.0dip</dimen>
+    <dimen name="shh_max_pos_y_delta">-100.0dip</dimen>
+    <dimen name="shh_min_gravity">1600.0dip</dimen>
+    <dimen name="slider_sticker_slider_handle_size">32.5dip</dimen>
+    <dimen name="sponsored_viewer_end_scene_profile_visit_cta_width">181.0dip</dimen>
+    <dimen name="stacked_timeline_beat_markers_bottomsheet_height">286.0dip</dimen>
+    <dimen name="standalone_fundraiser_sticker_title_text_line_spacing">--5.0sp</dimen>
+    <item type="dimen" name="sticker_drop_nux_text_shadow_radius">7.2</item>
+    <dimen name="stories_about_nux_icon_text_size">45.0sp</dimen>
+    <dimen name="story_delayed_skip_ad_m2_pill_margin_top">57.599976dip</dimen>
+    <dimen name="story_delayed_skip_ad_m2_pill_progress_ring_stroke_width">1.8099976dip</dimen>
+    <dimen name="story_like_ufi_animation_view_size">97.0dip</dimen>
+    <dimen name="story_snapshot_image_height">242.0dip</dimen>
+    <dimen name="suggested_music_pill_width">204.0dip</dimen>
+    <dimen name="sup_bottom_sheet_wayfarer_height">180.06dip</dimen>
+    <dimen name="sup_bottom_sheet_wayfarer_width">328.0dip</dimen>
+    <dimen name="support_personalized_ads_sticker_secondary_text_size">21.0sp</dimen>
+    <item type="dimen" name="text_format_hint_size_directional">@dimen/ai_agent_share_profile_sticker_padding</item>
+    <item type="dimen" name="text_format_hint_size_elegant">@dimen/ai_agent_share_profile_sticker_padding</item>
+    <item type="dimen" name="text_format_hint_size_literature">@dimen/ai_agent_share_profile_sticker_padding</item>
+    <item type="dimen" name="text_format_hint_size_meme">@dimen/ai_agent_share_profile_sticker_padding</item>
+    <item type="dimen" name="text_format_hint_size_modern">@dimen/action_bar_close_button_width</item>
+    <item type="dimen" name="text_format_hint_size_neon">@dimen/asset_picker_redesign_sticker_height</item>
+    <item type="dimen" name="text_format_hint_size_squeeze">@dimen/action_bar_close_button_width</item>
+    <item type="dimen" name="text_format_hint_size_strong">@dimen/action_bar_close_button_width</item>
+    <item type="dimen" name="text_format_hint_size_typewriter">@dimen/ai_agent_share_profile_sticker_padding</item>
+    <item type="dimen" name="text_format_min_size_classic">@dimen/action_bar_close_button_width</item>
+    <dimen name="text_placeholder_corner_radius">0.76dip</dimen>
+    <dimen name="thumbnail_card_corner_radius">3.8199768dip</dimen>
+    <dimen name="thumbnail_preview_with_ad_keyframes_height">357.0dip</dimen>
+    <item type="dimen" name="timer_bottom_sheet_padding_horizontal">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
+    <dimen name="trash_can_margin">-85.0dip</dimen>
+    <dimen name="tray_double_avatar_bg_pulsing_circle_size_small">35.349976dip</dimen>
+    <dimen name="tray_double_avatar_pulsing_avatar_size_small">25.559998dip</dimen>
+    <dimen name="tray_double_avatar_ring_side_padding">11.399994dip</dimen>
+    <dimen name="tray_live_cobroadcast_bg_circle_size_large">59.0dip</dimen>
+    <dimen name="tray_pulsing_avatar_size_small">31.899994dip</dimen>
+    <item type="dimen" name="trending_prompt_item_secondary_card_rotation">-5.0</item>
+    <item type="dimen" name="trending_prompt_item_tertiary_card_rotation">7.0</item>
+    <dimen name="universal_expanded_cta_empty_button_height">153.0dip</dimen>
+    <dimen name="universal_expanded_cta_small_button_margin_end">69.0dip</dimen>
+    <dimen name="universal_location_sticker_icon_offset">3.25dip</dimen>
+    <dimen name="valentines_day_mention_sticker_left_heart_margin_end">-17.0dip</dimen>
+    <dimen name="valentines_day_mention_sticker_right_heart_margin_start">-21.0dip</dimen>
+    <dimen name="vic_sticker_share_card_stroke_radius">3.0px</dimen>
+    <dimen name="video_cutout_sticker_height">420.0dip</dimen>
+    <dimen name="vinyl_sticker_album_art_height">120.5dip</dimen>
+    <dimen name="vinyl_sticker_size">278.0dip</dimen>
+    <dimen name="xposting_upsell_message_footer_text_view_width">273.0dip</dimen>
+    <item type="dimen" name="xr_ui_scale_factor">1.16</item>
 </resources>

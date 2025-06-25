@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/igds_prism_white_alpha_35" />
+    <item
+        android:state_focused="true"
+        android:drawable="@color/igds_prism_white_alpha_35" />
+    <item
+        android:drawable="@color/cds_white_a20" />
+</selector>

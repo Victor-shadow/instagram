@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="ring"
+            android:thicknessRatio="2.0"
+            android:useLevel="false"
+            android:innerRadius="@dimen/action_bar_item_spacing_left">
+            <solid
+                android:color="@color/gradient_light" />
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="2.3"
+            android:useLevel="false"
+            android:thickness="@dimen/abc_control_corner_material">
+            <gradient
+                android:startColor="@color/igvr_modal_stroke_gradient_stop_one"
+                android:endColor="@color/basel_track_background_color"
+                android:angle="270.0"
+                android:type="linear"
+                android:centerColor="@color/cds_transparent" />
+        </shape>
+    </item>
+</layer-list>

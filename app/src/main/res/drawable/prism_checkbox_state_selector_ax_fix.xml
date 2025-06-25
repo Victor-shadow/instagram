@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:drawable="@drawable/prism_checkbox_checked" />
+    <item
+        android:state_enabled="false"
+        android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="rectangle">
+                    <size
+                        android:height="24.0dip"
+                        android:width="24.0dip" />
+                    <corners
+                        android:radius="3.0dip" />
+                    <solid
+                        android:color="@color/checkbox_background_color_selector" />
+                </shape>
+            </item>
+            <item
+                android:gravity="center"
+                android:left="4.0dip"
+                android:top="4.0dip"
+                android:right="4.0dip"
+                android:bottom="4.0dip">
+                <bitmap
+                    android:src="@drawable/instagram_check_pano_filled_16"
+                    android:tint="@color/checkbox_disabled_tint" />
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_enabled="false"
+        android:state_checked="false">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="rectangle">
+                    <size
+                        android:height="24.0dip"
+                        android:width="24.0dip" />
+                    <corners
+                        android:radius="3.0dip" />
+                    <stroke
+                        android:width="1.5dip"
+                        android:color="@color/checkbox_disabled_tint" />
+                    <solid
+                        android:color="@color/checkbox_background_color_selector" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/prism_checkbox_unchecked_ax_fix" />
+</selector>

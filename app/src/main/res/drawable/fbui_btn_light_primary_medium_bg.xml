@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    android:variablePadding="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:state_pressed="true">
+        <shape>
+            <solid
+                android:color="@color/fbui_btn_light_primary_bg_pressed" />
+            <stroke
+                android:width="1.0dip"
+                android:color="@color/fbui_btn_light_primary_stroke_pressed" />
+            <corners
+                android:radius="@dimen/abc_action_bar_elevation_material" />
+            <padding
+                android:left="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+                android:top="@dimen/account_discovery_bottom_gap"
+                android:right="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+                android:bottom="@dimen/account_discovery_bottom_gap" />
+        </shape>
+    </item>
+    <item
+        android:state_enabled="true">
+        <shape>
+            <solid
+                android:color="@color/abc_decor_view_status_guard_light" />
+            <stroke
+                android:width="1.0dip"
+                android:color="@color/fbui_btn_light_primary_stroke_disabled" />
+            <corners
+                android:radius="@dimen/abc_action_bar_elevation_material" />
+            <padding
+                android:left="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+                android:top="@dimen/account_discovery_bottom_gap"
+                android:right="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+                android:bottom="@dimen/account_discovery_bottom_gap" />
+        </shape>
+    </item>
+    <item
+        android:state_enabled="false">
+        <shape>
+            <solid
+                android:color="@color/abc_decor_view_status_guard_light" />
+            <stroke
+                android:width="1.0dip"
+                android:color="@color/fbui_btn_light_primary_stroke_disabled" />
+            <corners
+                android:radius="@dimen/abc_action_bar_elevation_material" />
+            <padding
+                android:left="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+                android:top="@dimen/account_discovery_bottom_gap"
+                android:right="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+                android:bottom="@dimen/account_discovery_bottom_gap" />
+        </shape>
+    </item>
+</selector>

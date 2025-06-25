@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.drawable.custom.AppBitmapDrawable
+    fbui:fbui_src="@drawable/instagram_music_add_outline_24"
+    fbui:fbui_tint="@color/grey_6"
+    xmlns:fbui="http://schemas.android.com/apk/res-auto" />

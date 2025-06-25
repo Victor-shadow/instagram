@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="?igds_color_primary_icon" />
+    <corners
+        android:topLeftRadius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+        android:bottomLeftRadius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding" />
+    <stroke
+        android:width="1.0dip"
+        android:color="@color/solid_white" />
+</shape>

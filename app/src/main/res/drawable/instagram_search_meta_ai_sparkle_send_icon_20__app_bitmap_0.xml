@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.drawable.custom.AppBitmapDrawable
+    fbui:fbui_src="@drawable/instagram_direct_gen_ai_pano_filled_24_swappable"
+    fbui:fbui_tint="@color/igds_search_meta_ai_send_button_outside_icon_color"
+    xmlns:fbui="http://schemas.android.com/apk/res-auto" />

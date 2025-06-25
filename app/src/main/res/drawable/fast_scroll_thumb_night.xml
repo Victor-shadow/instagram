@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:topLeftRadius="@dimen/audience_lists_text_in_badge_horizontal_margin_right"
+        android:topRightRadius="@dimen/audience_lists_text_in_badge_horizontal_margin_right"
+        android:bottomLeftRadius="@dimen/audience_lists_text_in_badge_horizontal_margin_right"
+        android:bottomRightRadius="@dimen/audience_lists_text_in_badge_horizontal_margin_right" />
+    <solid
+        android:color="@color/fds_white_alpha60" />
+    <size
+        android:height="@dimen/action_bar_close_button_width"
+        android:width="@dimen/accent_edge_thickness" />
+</shape>

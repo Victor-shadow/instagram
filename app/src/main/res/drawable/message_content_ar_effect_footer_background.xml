@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/black_30_transparent"
+        android:endColor="@color/transparent"
+        android:angle="90.0"
+        android:type="linear" />
+    <corners
+        android:bottomLeftRadius="@dimen/asset_picker_static_sticker_last_row_padding"
+        android:bottomRightRadius="@dimen/asset_picker_static_sticker_last_row_padding" />
+</shape>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.drawable.custom.AppRedrawableDrawable
+    android:height="385.0px"
+    android:width="384.0px"
+    fbui:assetServerHandle="AQABJp5TwV0T"
+    fbui:density="640"
+    fbui:imageUri="https://lookaside.facebook.com/redrawable/GMgtjgVxCd3PpPABAAAAAAASLQktbnsvAAAD/"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbui="http://schemas.android.com/apk/res-auto" />

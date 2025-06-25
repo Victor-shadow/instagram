@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.drawable.custom.AppBitmapDrawable
+    android:height="@dimen/abc_dialog_padding_material"
+    android:width="@dimen/abc_dialog_padding_material"
+    fbui:fbui_gravity="center"
+    fbui:fbui_src="@drawable/instagram_moon_filled_24"
+    fbui:fbui_tint="@color/igds_icon_on_color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbui="http://schemas.android.com/apk/res-auto" />

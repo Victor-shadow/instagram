@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="oval"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="?forwardingShortcutIconTextColor" />
+    <size
+        android:height="@dimen/alert_dialog_button_cell_height"
+        android:width="@dimen/alert_dialog_button_cell_height" />
+</shape>

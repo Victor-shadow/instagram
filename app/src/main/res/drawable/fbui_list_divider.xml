@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    android:drawable="@drawable/fbui_divider_horizontal"
+    android:insetLeft="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+    android:insetRight="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

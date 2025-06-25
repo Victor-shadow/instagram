@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="@dimen/account_preview_media_end_card_stroke_width"
+        android:color="@color/fds_white_alpha40" />
+    <solid
+        android:color="@color/transparent" />
+    <corners
+        android:radius="@dimen/ai_agent_share_profile_sticker_padding" />
+</shape>

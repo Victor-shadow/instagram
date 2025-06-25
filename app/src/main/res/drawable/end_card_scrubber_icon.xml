@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/story_comment_post_button_background"
+        android:height="@dimen/audience_selector_pill_layout_height"
+        android:width="@dimen/audience_selector_pill_layout_height">
+        <shape
+            android:shape="oval">
+            <stroke
+                android:width="@dimen/abc_action_bar_elevation_material"
+                android:color="@color/black" />
+            <solid
+                android:color="@color/gallery_share_button_bg" />
+            <size
+                android:height="@dimen/audience_selector_pill_layout_height"
+                android:width="@dimen/audience_selector_pill_layout_height" />
+        </shape>
+    </item>
+    <item
+        android:id="@id/story_comment_post_button_icon"
+        android:height="@dimen/abc_select_dialog_padding_start_material"
+        android:width="@dimen/abc_select_dialog_padding_start_material"
+        android:top="@dimen/achievements_only_you_top_margin"
+        android:bottom="@dimen/achievements_only_you_top_margin"
+        android:start="@dimen/achievements_only_you_top_margin"
+        android:end="@dimen/achievements_only_you_top_margin">
+        <bitmap
+            android:src="@drawable/instagram_add_pano_outline_12"
+            android:tint="@color/bottom_sheet_undo_redo_color" />
+    </item>
+</layer-list>

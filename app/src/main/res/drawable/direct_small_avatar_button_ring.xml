@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="ring"
+    android:useLevel="false"
+    android:innerRadius="@dimen/bubble_external_padding"
+    android:thickness="@dimen/audience_lists_text_in_badge_horizontal_margin_right"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/solid_white" />
+</shape>

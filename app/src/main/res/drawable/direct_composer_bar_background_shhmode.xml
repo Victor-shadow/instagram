@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/basel_stacked_trimmer_handle" />
+    <corners
+        android:radius="@dimen/asset_picker_static_sticker_last_row_padding" />
+</shape>

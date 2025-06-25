@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/unified_memu_sticker_entrypoint_icon"
+        android:drawable="@drawable/direct_unified_memu_sticker_entrypoint_icon__app_bitmap_0"
+        android:left="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+        android:top="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+        android:right="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
+        android:bottom="@dimen/ab_test_media_thumbnail_preview_item_internal_padding" />
+</layer-list>

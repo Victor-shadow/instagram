@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid
+                android:color="@color/gallery_share_button_bg" />
+            <corners
+                android:topLeftRadius="@dimen/abc_button_padding_horizontal_material"
+                android:topRightRadius="@dimen/abc_button_padding_horizontal_material" />
+        </shape>
+    </item>
+</layer-list>
