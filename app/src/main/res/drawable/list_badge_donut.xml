@@ -9,5 +9,5 @@
         android:width="20.0dip" />
     <stroke
         android:width="7.0dip"
-        android:color="?igds_color_list_badge" />
+        android:color="@color/igds_color_list_badge" />
 </shape>

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_pressed="true">
         <shape
             android:shape="rectangle">
             <solid
-                android:color="@color/experimental_fds_color_FFB0B3B8" />
+                android:color="@color/experimental_fds_color" />
             <corners
-                android:radius="?sc_primary_button_corner_radius" />
+                android:radius="@color/sc_primary_button_corner_radius" />
         </shape>
     </item>
     <item>
         <shape
             android:shape="rectangle">
             <solid
-                android:color="@color/abc_decor_view_status_guard_light" />
+                android:color="@color/abc_decor_view_status_guard_light" tools:ignore="PrivateResource" />
             <corners
-                android:radius="?sc_primary_button_corner_radius" />
+                android:radius="@color/sc_primary_button_corner_radius" />
         </shape>
     </item>
 </selector>

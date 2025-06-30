@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_close_friends" />
+        android:color="@color/igds_color_close_friends" />
     <corners
         android:radius="@dimen/abc_action_bar_elevation_material" />
     <padding

@@ -8,7 +8,7 @@
             <solid
                 android:color="@android:color/transparent" />
             <corners
-                android:radius="?sc_primary_button_corner_radius" />
+                android:radius="@color/sc_primary_button_corner_radius" />
         </shape>
     </item>
     <item>
@@ -17,7 +17,7 @@
             <solid
                 android:color="@android:color/transparent" />
             <corners
-                android:radius="?sc_primary_button_corner_radius" />
+                android:radius="@color/sc_primary_button_corner_radius" />
         </shape>
     </item>
 </selector>

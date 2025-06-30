@@ -7,7 +7,7 @@
         android:width="24.0dip" />
     <stroke
         android:width="2.0dip"
-        android:color="?igds_color_secondary_icon" />
+        android:color="@color/igds_color_secondary_icon" />
     <solid
         android:color="@android:color/transparent" />
 </shape>

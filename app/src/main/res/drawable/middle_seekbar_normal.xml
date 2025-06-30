@@ -5,5 +5,5 @@
     <corners
         android:radius="3.0dip" />
     <solid
-        android:color="?igds_color_separator_or_stroke_on_media" />
+        android:color="@color/igds_color_separator_or_stroke_on_media" />
 </shape>

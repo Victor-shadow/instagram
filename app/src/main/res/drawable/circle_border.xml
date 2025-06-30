@@ -7,5 +7,5 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="@dimen/afi_indicator_arrow_margin_top"
-        android:color="?igds_color_primary_icon" />
+        android:color="@color/igds_color_primary_icon" />
 </shape>

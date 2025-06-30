@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true" android:color="?musicCreationTextAndIconColorPrimary"/>
-    <item android:state_selected="false" android:color="?musicCreationTextAndIconColorTertiary"/>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/primary_dark_material_light" tools:ignore="PrivateResource" />
+    <item android:state_selected="false" android:color="@color/material_dynamic_tertiary0"/>
 
 </selector>

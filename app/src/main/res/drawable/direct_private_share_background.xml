@@ -2,7 +2,7 @@
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_elevated_background" />
+        android:color="@color/igds_color_elevated_background" />
     <corners
         android:topLeftRadius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
         android:topRightRadius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding" />

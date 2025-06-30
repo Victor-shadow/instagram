@@ -9,10 +9,10 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?musicCreationDurationBackgroundFillColor" />
+                android:color="@color/musiccreationdurationbackgroundfillcolor" />
             <stroke
                 android:width="@dimen/account_preview_media_end_card_stroke_width"
-                android:color="?musicCreationTextAndIconColorPrimary" />
+                android:color="@color/musiccreationtextandiconcolorprimary" />
         </shape>
     </item>
 </layer-list>

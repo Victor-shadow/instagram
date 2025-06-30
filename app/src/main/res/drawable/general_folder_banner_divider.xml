@@ -2,7 +2,7 @@
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_separator" />
+        android:color="@color/igds_color_separator" />
     <size
         android:height="@dimen/action_sheet_divider_margin_top" />
 </shape>

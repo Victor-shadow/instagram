@@ -9,7 +9,7 @@
                 android:radius="@dimen/abc_edit_text_inset_top_material" />
             <stroke
                 android:width="@dimen/account_preview_media_end_card_stroke_width"
-                android:color="?questionResponseCardOutlineSelected" />
+                android:color="@color/questionresponsecardoutlineselected" />
             <solid
                 android:color="@color/solid_white" />
         </shape>
@@ -21,7 +21,7 @@
                 android:radius="@dimen/abc_edit_text_inset_top_material" />
             <stroke
                 android:width="@dimen/account_preview_media_end_card_stroke_width"
-                android:color="?questionResponseCardOutline" />
+                android:color="@color/questionresponsecardoutline" />
             <solid
                 android:color="@color/solid_white" />
         </shape>

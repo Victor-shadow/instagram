@@ -9,7 +9,7 @@
             android:innerRadius="14.0dip"
             android:thickness="1.75dip">
             <solid
-                android:color="@color/grey_2" />
+                android:color="@color/gallery_share_button_bg" />
             <size
                 android:height="35.0dip"
                 android:width="35.0dip" />
@@ -23,7 +23,7 @@
             android:innerRadius="14.0dip"
             android:thickness="1.75dip">
             <solid
-                android:color="@color/black" />
+                android:color="@color/grey_2" />
             <size
                 android:height="35.0dip"
                 android:width="35.0dip" />

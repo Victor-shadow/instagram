@@ -6,8 +6,8 @@
         android:height="@dimen/action_button_settings_height"
         android:width="@dimen/action_button_settings_height" />
     <solid
-        android:color="?igds_color_primary_button_on_media" />
+        android:color="@color/igds_color_primary_button_on_media" />
     <stroke
         android:width="1.0dip"
-        android:color="?igds_color_creation_tools_grey_02" />
+        android:color="@color/igds_color_creation_tools_grey_02" />
 </shape>

@@ -16,6 +16,6 @@
         <bitmap
             android:gravity="center"
             android:src="@drawable/instagram_facebook_circle_filled_12"
-            android:tint="?igds_color_facebook_blue" />
+            android:tint="@color/igds_color_facebook_blue" />
     </item>
 </layer-list>

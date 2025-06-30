@@ -6,5 +6,5 @@
         android:height="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
         android:width="@dimen/ab_test_media_thumbnail_preview_item_internal_padding" />
     <solid
-        android:color="?igdsPrimaryIcon" />
+        android:color="@color/igds_primary_icon" />
 </shape>

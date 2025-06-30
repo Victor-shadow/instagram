@@ -9,8 +9,8 @@
         android:useLevel="true"
         android:thickness="@dimen/abc_button_padding_horizontal_material">
         <gradient
-            android:startColor="?sc_positive"
-            android:endColor="?sc_positive"
+            android:startColor="@color/sc_positive"
+            android:endColor="@color/sc_positive"
             android:angle="0.0"
             android:type="sweep" />
     </shape>

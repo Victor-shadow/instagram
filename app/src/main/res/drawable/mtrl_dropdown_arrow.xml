@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_checked="true"
-        android:drawable="@drawable/mtrl_ic_arrow_drop_up" />
+        android:drawable="@drawable/mtrl_ic_arrow_drop_up" tools:ignore="PrivateResource" />
     <item
-        android:drawable="@drawable/mtrl_ic_arrow_drop_down" />
+        android:drawable="@drawable/mtrl_ic_arrow_drop_down" tools:ignore="PrivateResource" />
 </selector>

@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?musicCreationTimeIndicatorBackgroundColor" />
+        android:color="@color/musiccreationtimeindicatorbackgroundcolor" />
     <corners
         android:radius="@dimen/ai_agent_share_profile_sticker_padding" />
 </shape>

@@ -8,7 +8,7 @@
                 android:height="40.0dip"
                 android:width="40.0dip" />
             <solid
-                android:color="?igds_color_secondary_media_button_onblack_panavision_updated" />
+                android:color="@color/igds_color_secondary_media_button_onblack_panavision_updated" />
         </shape>
     </item>
     <item

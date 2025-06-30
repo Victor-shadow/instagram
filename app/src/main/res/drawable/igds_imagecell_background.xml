@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="0.5dip"
-        android:color="?igds_color_photo_border" />
+        android:color="@color/igds_color_photo_border" />
     <corners
         android:radius="4.0dip" />
 </shape>

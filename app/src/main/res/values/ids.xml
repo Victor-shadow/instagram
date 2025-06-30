@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="campfire_group_icon" type="id" />
+    <item name="campfire_group_icon_background" type="id" />
+    <item name="shadow" type="id" />
+    <item name="ring" type="id" />
+    <item name="message_reactions_pill_shadow_layer" type="id" />
+    <item name="message_reactions_pill_background_layer" type="id" />
+    <item name="reply_bar_voice_message_icon" type="id" />
+    <item name="shortcut_selected_state" type="id" />
+    <item name="shortcut_unselected_state" type="id" />
+    <item name="unified_ai_sticker_entrypoint_icon" type="id" />
+    <item name="background" type="id" />
+    <item name="unified_imagine_entrypoint_icon" type="id" />
+    <item name="unified_memu_sticker_entrypoint_icon" type="id" />
+    <item name="unified_music_sticker_entrypoint_icon" type="id" />
+    <item name="refreshable_progress_background" type="id" />
+    <item name="refreshable_progress_track" type="id" />
+    <item name="story_comment_post_button_background" type="id" />
+    <item name="story_comment_post_button_icon" type="id" />
+    <item name="friend_map_sharing_indicator_outline" type="id" />
+    <item name="friend_map_sharing_indicator" type="id" />
+    <item name="message_reactions_pill_outline_stroke" type="id" />
+    <item name="message_reactions_pill_background" type="id" />
+    <item name="music_mix_pano_icon_drawable" type="id" />
+    <item name="prompts_upvote_pill_background_layer" type="id" />
+    <item name="prompts_pill_shadow_layer" type="id" />
+    <item name="gradient_layer" type="id" />
+    <item name="new_group_story_icon" type="id" />
+    <item name="new_group_story_icon_background" type="id" />
+    <item name="regenerate_shortcut_button_background_layer" type="id" />
+    <item name="school_story_icon" type="id" />
+    <item name="school_story_icon_background" type="id" />
+    <item name="share_to_story_shortcut_background_layer" type="id" />
+    <item name="seek_bar_knob_outer_circle" type="id" />
+    <item name="seek_bar_knob_inner_circle" type="id" />
+    <item name="gradient_background" type="id" />
+    <item name="instagram_calendar_filled" type="id" />
+</resources>

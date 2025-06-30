@@ -5,8 +5,8 @@
         android:state_pressed="true">
         <shape>
             <gradient
-                android:startColor="?igds_color_active_row_background_gradient_start"
-                android:endColor="?igds_color_active_row_background_gradient_end"
+                android:startColor="@color/igds_color_active_row_background_gradient_start"
+                android:endColor="@color/igds_color_active_row_background_gradient_end"
                 android:angle="0.0"
                 android:type="linear" />
         </shape>
@@ -15,8 +15,8 @@
         android:state_selected="true">
         <shape>
             <gradient
-                android:startColor="?igds_color_active_row_background_gradient_start"
-                android:endColor="?igds_color_active_row_background_gradient_end"
+                android:startColor="@color/igds_color_active_row_background_gradient_start"
+                android:endColor="@color/igds_color_active_row_background_gradient_end"
                 android:angle="0.0"
                 android:type="linear" />
         </shape>
@@ -25,8 +25,8 @@
         android:state_hovered="true">
         <shape>
             <gradient
-                android:startColor="?igds_color_hover_row_background_gradient_start"
-                android:endColor="?igds_color_primary_background"
+                android:startColor="@color/igds_color_hover_row_background_gradient_start"
+                android:endColor="@color/igds_color_primary_background"
                 android:angle="0.0"
                 android:type="linear" />
         </shape>
@@ -34,7 +34,7 @@
     <item>
         <shape>
             <solid
-                android:color="?igds_color_primary_background" />
+                android:color="@color/igds_color_primary_background" />
         </shape>
     </item>
 </selector>

@@ -4,9 +4,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="2.0dip"
-        android:color="?igdsHighlightBackground" />
+        android:color="@color/igdshighlightbackground" />
     <solid
-        android:color="?igdsHighlightBackground" />
+        android:color="@color/igdshighlightbackground" />
     <corners
         android:radius="24.0dip" />
 </shape>

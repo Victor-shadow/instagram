@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animated-vector
+<animated-vector xmlns:tools="http://schemas.android.com/tools"
     android:drawable="@drawable/btn_checkbox_checked_mtrl"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="PrivateResource">
     <target
         android:name="icon_null"
-        android:animation="@anim/btn_checkbox_to_unchecked_icon_null_animation" />
+        android:animation="@anim/btn_checkbox_to_unchecked_icon_null_animation"
+        tools:ignore="PrivateResource" />
     <target
         android:name="check_path_merged"
-        android:animation="@anim/btn_checkbox_to_unchecked_check_path_merged_animation" />
+        android:animation="@anim/btn_checkbox_to_unchecked_check_path_merged_animation"
+        tools:ignore="PrivateResource" />
     <target
         android:name="box_inner_merged"
-        android:animation="@anim/btn_checkbox_to_unchecked_box_inner_merged_animation" />
+        android:animation="@anim/btn_checkbox_to_unchecked_box_inner_merged_animation"
+        tools:ignore="PrivateResource" />
 </animated-vector>

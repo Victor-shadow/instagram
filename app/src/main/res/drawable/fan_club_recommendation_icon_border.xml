@@ -6,5 +6,5 @@
         android:radius="6.0dip" />
     <stroke
         android:width="@dimen/action_sheet_divider_margin_top"
-        android:color="?igds_color_creation_tools_grey_05" />
+        android:color="@color/igds_color_creation_tools_grey_05" />
 </shape>

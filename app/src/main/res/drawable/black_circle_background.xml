@@ -5,7 +5,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?igds_color_icon_on_white" />
+                android:color="@color/igds_color_icon_on_white" />
         </shape>
     </item>
 </layer-list>

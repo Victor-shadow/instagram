@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="2.0dip"
-        android:color="?musicCreationTextAndIconColorTertiary" />
+        android:color="@color/musiccreationtextandiconcolortertiary" />
     <corners
         android:radius="12.0dip" />
 </shape>

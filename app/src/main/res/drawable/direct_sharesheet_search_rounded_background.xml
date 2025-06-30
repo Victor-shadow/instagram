@@ -5,7 +5,7 @@
         android:state_pressed="true">
         <shape>
             <solid
-                android:color="?directShareSheetSearchPressedColor" />
+                android:color="@color/directsharesheetsearchpressedcolor" />
             <corners
                 android:radius="48.0dip" />
         </shape>
@@ -13,7 +13,7 @@
     <item>
         <shape>
             <solid
-                android:color="?elevatedHighlightBackgroundColor" />
+                android:color="@color/elevatedhighlightbackgroundcolor" />
             <corners
                 android:radius="48.0dip" />
         </shape>

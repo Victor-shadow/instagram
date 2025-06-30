@@ -2,7 +2,7 @@
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_secondary_button_panavision" />
+        android:color="@color/igds_color_secondary_button_panavision" />
     <corners
         android:radius="8.0dip" />
 </shape>

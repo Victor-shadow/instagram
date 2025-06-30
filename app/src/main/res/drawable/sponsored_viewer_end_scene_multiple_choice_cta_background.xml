@@ -6,7 +6,7 @@
         android:height="48.0dip"
         android:width="330.0dip" />
     <solid
-        android:color="?igds_color_primary_button_on_media" />
+        android:color="@color/igds_color_primary_button_on_media" />
     <corners
         android:radius="500.0dip" />
 </shape>

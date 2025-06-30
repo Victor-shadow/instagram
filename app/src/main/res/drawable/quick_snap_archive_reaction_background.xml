@@ -4,7 +4,7 @@
     <item>
         <shape>
             <solid
-                android:color="?igds_color_media_background" />
+                android:color="@color/igds_color_media_background" />
             <corners
                 android:radius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding" />
         </shape>
@@ -16,7 +16,7 @@
         android:bottom="@dimen/abc_control_corner_material">
         <shape>
             <solid
-                android:color="?igds_color_toast_background" />
+                android:color="@color/igds_color_toast_background" />
             <corners
                 android:radius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding" />
         </shape>

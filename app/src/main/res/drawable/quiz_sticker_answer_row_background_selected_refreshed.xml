@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_creation_tools_green" />
+        android:color="@color/igds_color_creation_tools_green" />
     <corners
         android:radius="@dimen/asset_picker_redesign_sticker_height" />
 </shape>

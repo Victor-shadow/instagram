@@ -5,7 +5,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?sc_translucent_background" />
+                android:color="@color/sc_translucent_background" />
         </shape>
     </item>
     <item
@@ -16,7 +16,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?sc_always_white" />
+                android:color="@color/sc_always_white" />
         </shape>
     </item>
 </layer-list>

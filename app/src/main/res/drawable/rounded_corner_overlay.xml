@@ -18,7 +18,7 @@
                 android:radius="@dimen/ad4ad_button_bottom_margin" />
             <stroke
                 android:width="@dimen/abc_edit_text_inset_top_material"
-                android:color="?igds_color_primary_background" />
+                android:color="@color/igds_color_primary_background" />
         </shape>
     </item>
 </layer-list>

@@ -5,5 +5,5 @@
     <size
         android:height="6.0dip" />
     <solid
-        android:color="?igds_color_secondary_background" />
+        android:color="@color/igds_color_secondary_background" />
 </shape>

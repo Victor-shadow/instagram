@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_thumbnail_badge_background" />
+        android:color="@color/igds_color_thumbnail_badge_background" />
     <corners
         android:radius="25.0dip" />
 </shape>

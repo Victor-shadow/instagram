@@ -11,7 +11,7 @@
                 android:right="@dimen/abc_button_padding_horizontal_material"
                 android:bottom="@dimen/abc_button_padding_horizontal_material" />
             <solid
-                android:color="@color/grey_2" />
+                android:color="@color/gradient_dark" />
             <corners
                 android:radius="@dimen/abc_control_corner_material" />
         </shape>
@@ -25,7 +25,7 @@
                 android:right="@dimen/abc_button_padding_horizontal_material"
                 android:bottom="@dimen/abc_button_padding_horizontal_material" />
             <solid
-                android:color="@color/grey_1" />
+                android:color="@color/gallery_share_button_bg" />
             <corners
                 android:radius="@dimen/abc_control_corner_material" />
         </shape>

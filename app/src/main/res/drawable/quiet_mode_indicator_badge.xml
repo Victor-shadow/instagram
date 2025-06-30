@@ -19,7 +19,7 @@
         <bitmap
             android:gravity="center"
             android:src="@drawable/instagram_moon_pano_filled_12"
-            android:tint="?igds_color_secondary_icon"
+            android:tint="@color/igds_color_secondary_icon"
             android:height="@dimen/account_discovery_bottom_gap"
             android:width="@dimen/account_discovery_bottom_gap" />
     </item>

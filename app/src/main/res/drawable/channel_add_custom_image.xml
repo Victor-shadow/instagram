@@ -8,7 +8,7 @@
                 android:height="74.0dip"
                 android:width="74.0dip" />
             <solid
-                android:color="?igds_color_elevated_highlight_background" />
+                android:color="@color/igds_color_elevated_highlight_background" />
         </shape>
     </item>
     <item

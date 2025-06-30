@@ -16,6 +16,6 @@
         android:width="12.0dip">
         <bitmap
             android:src="@drawable/instagram_crown_pano_filled_12"
-            android:tint="?igds_color_elevated_background" />
+            android:tint="@color/igds_color_elevated_background" />
     </item>
 </layer-list>

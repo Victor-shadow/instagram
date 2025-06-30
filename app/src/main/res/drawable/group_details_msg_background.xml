@@ -2,7 +2,7 @@
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?elevatedBackgroundColorDark" />
+        android:color="@color/elevatedhighlightbackgroundcolor" />
     <corners
         android:radius="20.0dip" />
 </shape>

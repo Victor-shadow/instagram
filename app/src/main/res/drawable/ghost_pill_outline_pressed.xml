@@ -8,7 +8,7 @@
                 android:radius="@dimen/abc_button_padding_horizontal_material" />
             <stroke
                 android:width="2.0dip"
-                android:color="?igds_color_secondary_button_pressed_panavision"
+                android:color="@color/igds_color_secondary_button_pressed_panavision"
                 android:dashWidth="6.0dip"
                 android:dashGap="6.0dip" />
             <solid

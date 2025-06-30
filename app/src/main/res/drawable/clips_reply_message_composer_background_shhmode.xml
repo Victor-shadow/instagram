@@ -8,7 +8,7 @@
         android:dashWidth="3.0dip"
         android:dashGap="3.0dip" />
     <solid
-        android:color="?igds_color_clips_reply_bar_pill" />
+        android:color="@color/igds_color_clips_reply_bar_pill" />
     <corners
         android:radius="24.0dip" />
 </shape>

@@ -7,7 +7,7 @@
             <size
                 android:height="@dimen/abc_alert_dialog_button_dimen" />
             <solid
-                android:color="?backgroundColorSecondary" />
+                android:color="@color/backgroundcolorsecondary" />
         </shape>
     </item>
     <item

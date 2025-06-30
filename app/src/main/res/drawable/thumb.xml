@@ -12,7 +12,7 @@
                     <corners
                         android:radius="100.0dip" />
                     <solid
-                        android:color="?igds_color_primary_text_on_media" />
+                        android:color="@color/igds_color_primary_text_on_media" />
                 </shape>
             </item>
         </layer-list>

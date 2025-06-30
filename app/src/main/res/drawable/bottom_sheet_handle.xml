@@ -5,5 +5,5 @@
     <corners
         android:radius="8.0dip" />
     <solid
-        android:color="?igds_color_creation_tools_grey_02" />
+        android:color="@color/igds_color_creation_tools_grey_02" />
 </shape>

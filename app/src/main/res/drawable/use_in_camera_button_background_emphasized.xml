@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_primary_button" />
+        android:color="@color/igds_color_primary_button" />
     <corners
         android:radius="@dimen/action_bar_centered_headers_reels_icon_size" />
 </shape>

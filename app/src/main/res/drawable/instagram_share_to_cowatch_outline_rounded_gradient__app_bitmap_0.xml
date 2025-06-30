@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.fbui.drawable.custom.AppBitmapDrawable
-    fbui:fbui_gravity="center"
-    fbui:fbui_src="@drawable/instagram_video_chat_pano_outline_24"
-    xmlns:fbui="http://schemas.android.com/apk/res-auto" />

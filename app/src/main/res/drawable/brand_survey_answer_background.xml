@@ -4,9 +4,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="2.0dip"
-        android:color="?igds_color_stroke" />
+        android:color="@color/igds_color_stroke" />
     <solid
-        android:color="?igds_color_primary_background" />
+        android:color="@color/igds_color_primary_background" />
     <corners
         android:radius="24.0dip" />
 </shape>

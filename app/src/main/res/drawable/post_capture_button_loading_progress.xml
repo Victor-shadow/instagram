@@ -8,7 +8,7 @@
             android:useLevel="true"
             android:thickness="1.0dip">
             <solid
-                android:color="?igds_color_creation_tools_grey_05" />
+                android:color="@color/igds_color_creation_tools_grey_05" />
         </shape>
     </item>
 </layer-list>

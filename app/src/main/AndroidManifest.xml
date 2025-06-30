@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-        android:installLocation="auto"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools">
     <!--Allows the app to read image and video files that you select from shared storage. -->
@@ -86,14 +85,7 @@
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
     <!--Allows the app to remove home screen shortcuts without user intervention-->
     <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
-    <uses-permission android:name="com.socialmediaapplication.direct.permission.PROTECTED_DEEPLINKING"/>
-    <uses-permission android:name="com.socialmediaapplication.direct.permission.DIRECT_APP_THREAD_STORE_SERVICE"/>
-    <uses-permission android:name="com.facebook.services.identity.FEO2"/>
-    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
-    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
-    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
-    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
-    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+
     <!--Allow the app to configure local Bluetooth phone and t discover and pair with remote devices.-->
     <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN"/>
     <!--Allows the app to connect and disconnect from Wi-Fi access points and make changes to device configuration for Wi-Fi networks.-->

@@ -7,7 +7,7 @@
             <corners
                 android:radius="100.0dip" />
             <solid
-                android:color="?igds_color_creation_tools_green" />
+                android:color="@color/igds_color_creation_tools_green" />
         </shape>
     </item>
 </selector>

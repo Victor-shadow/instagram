@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="abc_decor_view_status_guard">#ff000000</color>
-    <color name="abc_decor_view_status_guard_light">#ffffffff</color>
-    <color name="abc_search_url_text_normal">#ff7fa87f</color>
-    <color name="abc_search_url_text_pressed">@android:color/black</color>
-    <color name="accent_material_dark">@color/material_deep_teal_200</color>
-    <color name="accent_material_light">@color/material_deep_teal_500</color>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="abc_decor_view_status_guard" tools:ignore="PrivateResource">#ff000000</color>
+    <color name="abc_decor_view_status_guard_light" tools:ignore="PrivateResource">#ffffffff</color>
+    <color name="abc_search_url_text_normal" tools:ignore="PrivateResource">#ff7fa87f</color>
+    <color name="abc_search_url_text_pressed" tools:ignore="PrivateResource">@android:color/black</color>
+    <color name="accent_material_dark" tools:ignore="PrivateResource">@color/material_deep_teal_200</color>
+    <color name="accent_material_light" tools:ignore="PrivateResource">@color/material_deep_teal_500</color>
     <color name="action_bar_semi_transparent_white">#bfffffff</color>
     <color name="action_bar_transparent_background_pressed_state">#30000000</color>
     <color name="activator_card_progress_bad">@color/clips_gradient_redesign_color_1</color>
@@ -27,18 +27,18 @@
     <color name="avatar_powerups_laugh_bubble_from">#ffff5152</color>
     <color name="avatar_powerups_laugh_bubble_to">#ffff6e46</color>
     <color name="background">#cc000000</color>
-    <color name="background_floating_material_dark">@color/cardview_dark_background</color>
-    <color name="background_floating_material_light">@android:color/white</color>
-    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_floating_material_dark" tools:ignore="PrivateResource">@color/cardview_dark_background</color>
+    <color name="background_floating_material_light" tools:ignore="PrivateResource">@android:color/white</color>
+    <color name="background_material_dark" tools:ignore="PrivateResource">@color/material_grey_850</color>
     <color name="badge_color">#ff0095f6</color>
     <color name="barcelona_story_share_dark_mode">@color/grey_10</color>
     <color name="barcelona_story_share_light_mode">@color/grey_0</color>
-    <color name="basel_bottom_sheet_background_color">#ff1c1f24</color>
+    <color name="basel_bottom_sheet_background_color">#1affffff</color>
     <color name="basel_purple_5_strong">#ff5806e0</color>
     <color name="basel_stacked_trimmer_handle">@color/black</color>
     <color name="basel_track_background_color">#1affffff</color>
     <color name="baseline_neutral_0_alpha_10">#19000000</color>
-    <color name="baseline_neutral_10">#ff1f1f1f</color>
+    <color name="baseline_neutral_10">#1affffff</color>
     <color name="baseline_neutral_100_with_surface_tint_light_alpha_12">#ffedf2fa</color>
     <color name="baseline_neutral_10_alpha_38">#611f1f1f</color>
     <color name="baseline_neutral_10_with_surface_tint_dark_alpha_11">#ff313336</color>
@@ -103,7 +103,7 @@
     <color name="border_primary">#ff212328</color>
     <color name="bottom_sheet_background">@color/igds_dimmer</color>
     <color name="bottom_sheet_undo_redo_color">@color/solid_white</color>
-    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_dark" tools:ignore="PrivateResource">#80ffffff</color>
     <color name="browser_chrome_text_color">#ff689afe</color>
     <color name="browser_close_button_tint">#ff6a7180</color>
     <color name="browser_subtitle_text_color">#7f000000</color>
@@ -111,11 +111,11 @@
     <color name="button_background">#ffe2e5e9</color>
     <color name="button_background_color">#99303030</color>
     <color name="button_disabled_color">@color/bright_foreground_disabled_material_dark</color>
-    <color name="button_material_dark">#ff5a595b</color>
-    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="button_material_dark" tools:ignore="PrivateResource">#ff5a595b</color>
+    <color name="button_material_light" tools:ignore="PrivateResource">#ffd6d7d7</color>
     <color name="button_text_disabled_color">#663897f0</color>
-    <color name="call_notification_answer_color">#ff1d873b</color>
-    <color name="call_notification_decline_color">#ffd93025</color>
+    <color name="call_notification_answer_color" tools:ignore="PrivateResource">#ff1d873b</color>
+    <color name="call_notification_decline_color" tools:ignore="PrivateResource">#ffd93025</color>
     <color name="callout_background">@color/grey_1</color>
     <color name="camera_gradient_center">#80d73889</color>
     <color name="camera_gradient_end">#80fd8d32</color>
@@ -175,7 +175,7 @@
     <color name="cds_white_a10">#19ffffff</color>
     <color name="cds_white_a15">#26ffffff</color>
     <color name="cds_white_a20">#33ffffff</color>
-    <color name="cds_white_a25">#3ffffff</color>
+    <color name="cds_white_a25">#3fffffff</color>
     <color name="cds_white_a30">#4cffffff</color>
     <color name="cds_white_a45">#72ffffff</color>
     <color name="cds_white_a65">#a5ffffff</color>
@@ -243,14 +243,14 @@
     <color name="default_text_color_on_accent1_baseline">@color/default_icon_color_on_accent1_light</color>
     <color name="default_text_color_on_accent1_disabled_baseline">@color/default_icon_color_disabled_dark</color>
     <color name="default_text_color_secondary_baseline">@color/default_control_color_normal_light</color>
-    <color name="design_dark_default_color_background">#ff121212</color>
-    <color name="design_dark_default_color_error">#ffcf6679</color>
-    <color name="design_dark_default_color_primary">#ffba86fc</color>
-    <color name="design_dark_default_color_primary_variant">#ff3700b3</color>
-    <color name="design_dark_default_color_secondary">#ff03dac6</color>
-    <color name="design_fab_stroke_end_inner_color">#0a000000</color>
-    <color name="design_fab_stroke_top_outer_color">#2effffff</color>
-    <color name="design_snackbar_background_color">#ff323232</color>
+    <color name="design_dark_default_color_background" tools:ignore="PrivateResource">#ff121212</color>
+    <color name="design_dark_default_color_error" tools:ignore="PrivateResource">#ffcf6679</color>
+    <color name="design_dark_default_color_primary" tools:ignore="PrivateResource">#ffba86fc</color>
+    <color name="design_dark_default_color_primary_variant" tools:ignore="PrivateResource">#ff3700b3</color>
+    <color name="design_dark_default_color_secondary" tools:ignore="PrivateResource">#ff03dac6</color>
+    <color name="design_fab_stroke_end_inner_color" tools:ignore="PrivateResource">#0a000000</color>
+    <color name="design_fab_stroke_top_outer_color" tools:ignore="PrivateResource">#2effffff</color>
+    <color name="design_snackbar_background_color" tools:ignore="PrivateResource">#ff323232</color>
     <color name="dialog_bg_color_baseline">@color/color_picker_background_color</color>
     <color name="dialog_bg_color_dark_baseline">@color/adaptive_toolbar_preference_header_background_dark</color>
     <color name="dialog_button_text">#ff0866ff</color>
@@ -272,8 +272,8 @@
     <color name="divider_view">#4ddbdbdb</color>
     <color name="dropdown_dark_divider_color">@color/fds_white_alpha_13</color>
     <color name="dropdown_divider_color">@color/baseline_neutral_70</color>
-    <color name="error_color_material_dark">#ffff7043</color>
-    <color name="error_color_material_light">#ffff5722</color>
+    <color name="error_color_material_dark" tools:ignore="PrivateResource">#ffff7043</color>
+    <color name="error_color_material_light" tools:ignore="PrivateResource">#ffff5722</color>
     <color name="exo_black_opacity_60">#98000000</color>
     <color name="exo_bottom_bar_background">#b0000000</color>
     <color name="exo_edit_mode_background_color">#fff4f3f0</color>
@@ -300,7 +300,7 @@
     <color name="experimental_fds_color_FF8F9297">#ff8f9297</color>
     <color name="experimental_fds_color_FF979A9F">#ff979a9f</color>
     <color name="experimental_fds_color_FFA18400">#ffa18400</color>
-    <color name="experimental_fds_color_FFBOB3B8">#ffbob3b8</color>
+    <color name="experimental_fds_color_FFBOB3B8">#ffb0b3b8</color>
     <color name="experimental_fds_color_FFD0D3D7">#ffd0d3d7</color>
     <color name="experimental_fds_color_FFDD2334">#ffdd2334</color>
     <color name="experimental_fds_color_FFDE51A4">#ffde51a4</color>
@@ -351,7 +351,7 @@
     <color name="fbui_bluegrey_50">#ff4e5665</color>
     <color name="fbui_bluegrey_50_60a">#994e5665</color>
     <color name="fbui_bluegrey_5_60">#99e9eaed</color>
-    <color name="fbui_bluegrey_60">#ff373e4d</color>
+    <color name="fbui_bluegrey_60">#ff373e</color>
     <color name="fbui_bluegrey_70">#ff232937</color>
     <color name="fbui_bluegrey_70_f0">#f0232937</color>
     <color name="fbui_bluegrey_80">#ff141823</color>
@@ -426,7 +426,7 @@
     <color name="fds_chartreuse_55">#ff6a9316</color>
     <color name="fds_chartreuse_95">#ffe2ff98</color>
     <color name="fds_cyan_25">#ff0f3f5d</color>
-    <color name="fds_cyan_55">##ff008ed5</color>
+    <color name="fds_cyan_55">#ff008ed5</color>
     <color name="fds_cyan_65">#ff00a3f1</color>
     <color name="fds_cyan_95">#ffe7f5ff</color>
     <color name="fds_fuchsia_25">#ff760e3e</color>
@@ -564,7 +564,7 @@
     <color name="grey_3_66_transparent">#aac7c7c7</color>
     <color name="grey_4">#ffa8a8a8</color>
     <color name="grey_4_50_transparent">#80b2b2b2</color>
-    <color name="grey_4_90_transparent">##e6b2b2b2</color>
+    <color name="grey_4_90_transparent">#e6b2b2b2</color>
     <color name="grey_5">#ff999999</color>
     <color name="grey_5_20_transparent">#338e8e8e</color>
     <color name="grey_5_30_transparent">#4d8e8e8e</color>
@@ -577,7 +577,7 @@
     <color name="grey_7_90_transparent">#e6555555</color>
     <color name="grey_8_30_transparent">#4d363636</color>
     <color name="grey_8_40_transparent">#66363636</color>
-    <color name="grey_8_70_transparent">##b3363636</color>
+    <color name="grey_8_70_transparent">#b3363636</color>
     <color name="grey_9_10_transparent">#e6262626</color>
     <color name="grey_9_20_transparent">#33262626</color>
     <color name="grey_9_30_transparent">#4d262626</color>
@@ -589,7 +589,7 @@
     <color name="hairline_stroke_color_baseline">@color/hairline_stroke_color_dark</color>
     <color name="hairline_stroke_color_dark">@color/baseline_neutral_variant_50</color>
     <color name="hairline_stroke_color_light">@color/baseline_neutral_variant_60</color>
-    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_dark" tools:ignore="PrivateResource">#6680cbc4</color>
     <color name="horizon_background_loading_toast_dismiss">#ff0082fb</color>
     <color name="horizon_background_loading_toast_text">#ff999999</color>
     <color name="horizon_frame_color">#ff8c72cb</color>
@@ -668,7 +668,7 @@
     <color name="igds_prism_black_alpha_15">#260c1014</color>
     <color name="igds_prism_black_alpha_30">#4d0c1014</color>
     <color name="igds_prism_black_alpha_40">#660c1014</color>
-    <color name="igds_prism_black_alpha_45">#0c101473</color>
+    <color name="igds_prism_black_alpha_45">#730c1014</color>
     <color name="igds_prism_black_alpha_70">#b30c1014</color>
     <color name="igds_prism_black_alpha_90">#e60c1014</color>
     <color name="igds_prism_blue_00">#fff5fbff</color>
@@ -693,11 +693,11 @@
     <color name="igds_prism_gray_05">#ff838993</color>
     <color name="igds_prism_gray_0500">#ffdce0e5</color>
     <color name="igds_prism_gray_06">#ff6f7680</color>
-    <color name="igds_prism_gray_07">##ff5e646d</color>
+    <color name="igds_prism_gray_07">#ff5e646d</color>
     <color name="igds_prism_gray_07_alpha_70">#b35e646d</color>
     <color name="igds_prism_gray_08">#ff2b3036</color>
     <color name="igds_prism_gray_08_alpha_05">#0d2b3036</color>
-    <color name="igds_prism_gray_08_alpha_08">#cc2b3036</color>
+    <color name="igds_prism_gray_08_alpha_08">#142b3036</color>
     <color name="igds_prism_gray_09">#ff25292e</color>
     <color name="igds_prism_gray_09_alpha_95">#f225292e</color>
     <color name="igds_prism_gray_10">#ff212328</color>
@@ -786,7 +786,7 @@
     <color name="iglive_ssi_banner_gradient_start">#99a02ea2</color>
     <color name="igvr_modal_background">#ff0e0e0e</color>
     <color name="igvr_modal_shadow_color">#aa000000</color>
-    <color name="igvr_modal_stroke_gradient_stop_one">##47ffffff</color>
+    <color name="igvr_modal_stroke_gradient_stop_one">#47ffffff</color>
     <color name="igvr_modal_stroke_gradient_stop_three">#0dffffff</color>
     <color name="info_dialog_link_color">#ff0e52b0</color>
     <color name="interactive_sticker_answer_test">@color/grey_9_40_transparent</color>
@@ -807,12 +807,12 @@
     <color name="lavender_6">#ffa6009f</color>
     <color name="lavender_7">#ff8e0188</color>
     <color name="lavender_9">#ff4c0046</color>
-    <color name="material_deep_teal_200">#ff80cbc4</color>
-    <color name="material_deep_teal_500">#ff008577</color>
-    <color name="material_grey_100">#fff5f5f5</color>
-    <color name="material_grey_600">#ff757575</color>
-    <color name="material_grey_850">#ff303030</color>
-    <color name="material_grey_900">#ff212121</color>
+    <color name="material_deep_teal_200" tools:ignore="PrivateResource">#ff80cbc4</color>
+    <color name="material_deep_teal_500" tools:ignore="PrivateResource">#ff008577</color>
+    <color name="material_grey_100" tools:ignore="PrivateResource">#fff5f5f5</color>
+    <color name="material_grey_600" tools:ignore="PrivateResource">#ff757575</color>
+    <color name="material_grey_850" tools:ignore="PrivateResource">#ff303030</color>
+    <color name="material_grey_900" tools:ignore="PrivateResource">#ff212121</color>
     <color name="media_map_bottom_sheet_shimmer_color">@color/context_line_color</color>
     <color name="menu_shutter_blue_100">#ff0082fb</color>
     <color name="menu_bg_color_baseline">@color/gm3_baseline_surface_container</color>
@@ -836,9 +836,9 @@
     <color name="mk_selected_media_controller_end_gradient">@color/fbui_white_90</color>
     <color name="msg_powerups_giftbox_lid">#ffff4888</color>
     <color name="mds_powerups_giftbox_lid_depth">#ffcc3770</color>
-    <color name="mtrl_scrim_color">#52000000</color>
-    <color name="mtrl_textinput_default_box_stroke_color">#6b000000</color>
-    <color name="mtrl_textinput_hovered_box_stroke_color">#de000000</color>
+    <color name="mtrl_scrim_color" tools:ignore="PrivateResource">#52000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:ignore="PrivateResource">#6b000000</color>
+    <color name="mtrl_textinput_hovered_box_stroke_color" tools:ignore="PrivateResource">#de000000</color>
     <color name="music_note_add_to_spotify_button_color">@color/grey_4_90_transparent</color>
     <color name="music_note_album_art_background_color">@color/igds_elevated_background</color>
     <color name="music_pick_white_translucent_dash">@color/fds_white_alpha40</color>
@@ -876,11 +876,11 @@
     <color name="poll_v2_sticker_option_text_white">@color/bottom_sheet_undo_redo_color</color>
     <color name="poll_v2_sticker_title_hint_text">@color/fundraiser_sticker_donate_button_background_color</color>
     <color name="presence_indicator_color">#ff4bcc1d</color>
-    <color name="primary_dark_material_light">@color/material_grey_600</color>
-    <color name="primary_material_dark">@color/material_grey_900</color>
-    <color name="primary_material_light">@color/material_grey_100</color>
-    <color name="primary_text_disabled_material_dark">#4dffffff</color>
-    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="primary_dark_material_light" tools:ignore="PrivateResource">@color/material_grey_600</color>
+    <color name="primary_material_dark" tools:ignore="PrivateResource">@color/material_grey_900</color>
+    <color name="primary_material_light" tools:ignore="PrivateResource">@color/material_grey_100</color>
+    <color name="primary_text_disabled_material_dark" tools:ignore="PrivateResource">#4dffffff</color>
+    <color name="primary_text_disabled_material_light" tools:ignore="PrivateResource">#39000000</color>
     <color name="prism_disabled_background_off">@color/igds_prism_gray_02</color>
     <color name="prism_disabled_background_on">@color/igds_prism_gray_04</color>
     <color name="prism_disabled_thumb_ax_fix">@color/igds_prism_gray_04</color>
@@ -957,8 +957,8 @@
     <color name="sc_xmds_harmonization_facebook_blue_start">#ff0064e0</color>
     <color name="search_row_track_hscroll_background">@color/grey_2_20_transparent</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
-    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
-    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="secondary_text_disabled_material_dark" tools:ignore="PrivateResource">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light" tools:ignore="PrivateResource">#24000000</color>
     <color name="share_background">#d1505050</color>
     <color name="share_professional_profile_sticker_username_color_end">#ff00b9ff</color>
     <color name="share_professional_profile_sticker_username_color_start">#ff4e53ff</color>
@@ -986,9 +986,9 @@
     <color name="sup_toggle_background">#cc4d4d4d</color>
     <color name="survey_options_color">@color/badge_color</color>
     <color name="switch_handle">#fff9f8f8</color>
-    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
-    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
-    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="switch_thumb_disabled_material_dark" tools:ignore="PrivateResource">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light" tools:ignore="PrivateResource">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light" tools:ignore="PrivateResource">#fff1f1f1</color>
     <color name="text_selection_background">#2bffffff</color>
     <color name="text_tool_attribute_picker_item_background_unselected">#1a1a1a1a</color>
     <color name="text_tool_controls_menu_background">#cc2d2d2d</color>
@@ -996,14 +996,14 @@
     <color name="thumbnail_tint">#05000000</color>
     <color name="time_indicator_iconic_time">#ffdd326e</color>
     <color name="toast_bg_color_baseline">@color/default_bg_color_light_elev_4_baseline</color>
-    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_dark" tools:ignore="PrivateResource">#e6616161</color>
     <color name="tooltip_banner_background">@color/direct_widget_primary_background</color>
     <color name="transparent">@color/black_0_transparent</color>
     <color name="video_review_trim_button_text_shadow_color">@color/grey_6_66_transparent</color>
     <color name="view_count_bg">@color/grey_9_50_transparent</color>
     <color name="voting_info_center_background_center">#ffd60094</color>
     <color name="voting_info_center_background_end">#ffff1717</color>
-    <color name="voting_info_center_background_start">##ff0012ff</color>
+    <color name="voting_info_center_background_start">#ff0012ff</color>
     <color name="voting_info_sticker_background_end">#ff0911fa</color>
     <color name="voting_info_sticker_background_start">#ffea0b59</color>
     <color name="voting_info_sticker_gradient_end">#fff10f43</color>
@@ -1020,8 +1020,7 @@
     <color name="yellow_11">#fffee500</color>
     <color name="zero_rating_data_banner_color">#ff262626</color>
     <color name="zero_rating_video_settings_drawer_cancel_button_color">#ff272727</color>
-    <color name="zero_rating_video_settings_drawer_confirm_background_color">##ff3897f0</color>
+    <color name="zero_rating_video_settings_drawer_confirm_background_color">#ff3897f0</color>
     <color name="zero_rating_video_settings_drawer_subtitle_color">#ff999999</color>
     <color name="zero_rating_video_settings_drawer_unchecked_border_color">#ffdbdbdb</color>
-
 </resources>

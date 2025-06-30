@@ -8,7 +8,7 @@
                 android:height="40.0dip"
                 android:width="@dimen/account_group_management_clickable_width" />
             <solid
-                android:color="?igds_color_media_background" />
+                android:color="@color/igds_color_media_background" />
         </shape>
     </item>
     <item

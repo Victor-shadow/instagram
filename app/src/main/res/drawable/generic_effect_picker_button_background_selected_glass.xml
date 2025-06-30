@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape
+<shape xmlns:tools="http://schemas.android.com/tools"
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="@color/primary_text_disabled_material_dark" />
+        android:color="@color/primary_text_disabled_material_dark"
+        tools:ignore="PrivateResource" />
     <size
         android:height="@dimen/ai_sticker_creation_suggested_prompt_pill_height" />
     <corners

@@ -6,7 +6,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?igds_color_primary_text" />
+                android:color="@color/igds_color_primary_text" />
         </shape>
     </item>
     <item
@@ -14,7 +14,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?igds_color_primary_background" />
+                android:color="@color/igds_color_primary_background" />
         </shape>
     </item>
 </selector>

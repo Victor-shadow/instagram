@@ -6,7 +6,7 @@
         android:height="48.0dip"
         android:width="300.0dip" />
     <solid
-        android:color="?igds_color_primary_button_indigo" />
+        android:color="@color/igds_color_primary_button_indigo" />
     <corners
         android:radius="500.0dip" />
 </shape>

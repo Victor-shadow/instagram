@@ -2,7 +2,7 @@
 <layer-list
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:drawable="?backgroundColorPrimary" />
+        android:drawable="@color/backgroundcolorprimary" />
     <item
         android:gravity="top"
         android:drawable="@drawable/instant_splash_placeholder_top" />

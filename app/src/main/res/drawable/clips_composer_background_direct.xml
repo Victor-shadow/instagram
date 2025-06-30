@@ -4,5 +4,5 @@
     <corners
         android:radius="32.0dip" />
     <solid
-        android:color="?igds_color_secondary_background_on_media" />
+        android:color="@color/igds_color_secondary_background_on_media" />
 </shape>

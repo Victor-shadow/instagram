@@ -5,5 +5,5 @@
     <corners
         android:radius="20.0dip" />
     <solid
-        android:color="?messageFromOthersGrayBackground" />
+        android:color="@color/messagefromothersgraybackground" />
 </shape>

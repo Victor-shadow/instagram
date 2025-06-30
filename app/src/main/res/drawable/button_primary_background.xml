@@ -6,7 +6,7 @@
         <shape
             android:shape="rectangle">
             <solid
-                android:color="?igds_color_secondary_background" />
+                android:color="@color/igds_color_secondary_background" />
             <corners
                 android:radius="@dimen/abc_action_bar_elevation_material" />
         </shape>
@@ -15,12 +15,12 @@
         <shape
             android:shape="rectangle">
             <solid
-                android:color="?igds_color_primary_background" />
+                android:color="@color/igds_color_primary_background" />
             <corners
                 android:radius="@dimen/abc_action_bar_elevation_material" />
             <stroke
                 android:width="1.0dip"
-                android:color="?igds_color_stroke" />
+                android:color="@color/igds_color_stroke" />
         </shape>
     </item>
 </selector>

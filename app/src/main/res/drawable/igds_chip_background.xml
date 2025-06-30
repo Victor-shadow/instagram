@@ -10,7 +10,7 @@
                 android:radius="@dimen/direct_inbox_filter_pill_radius" />
             <stroke
                 android:width="@dimen/afi_segmented_pill_border_width"
-                android:color="?igds_color_inbox_filter_chip_outline" />
+                android:color="@color/igds_color_inbox_filter_chip_outline" />
         </shape>
     </item>
     <item
@@ -19,7 +19,7 @@
         <shape
             android:shape="rectangle">
             <solid
-                android:color="?igds_color_inbox_filter_chip_selected_background" />
+                android:color="@color/igds_color_inbox_filter_chip_selected_background" />
             <corners
                 android:radius="@dimen/direct_inbox_filter_pill_radius" />
         </shape>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ripple
+<ripple xmlns:tools="http://schemas.android.com/tools"
     android:color="@color/abc_color_highlight_material"
     android:radius="20.0dip"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="PrivateResource" />

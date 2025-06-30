@@ -8,5 +8,5 @@
         android:bottomLeftRadius="4.0dip"
         android:bottomRightRadius="20.0dip" />
     <solid
-        android:color="?messageFromOthersGrayBackground" />
+        android:color="@color/messagefromothersgraybackground" />
 </shape>

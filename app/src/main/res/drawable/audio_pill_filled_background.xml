@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_creation_tools_grey_08" />
+        android:color="@color/igds_color_creation_tools_grey_08" />
     <corners
         android:radius="@dimen/action_bar_centered_headers_reels_icon_size" />
 </shape>

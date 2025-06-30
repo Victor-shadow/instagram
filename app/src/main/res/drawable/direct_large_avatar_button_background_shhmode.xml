@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="2.0dip"
-        android:color="?igds_color_separator_or_stroke_on_media"
+        android:color="@color/igds_color_separator_or_stroke_on_media"
         android:dashWidth="4.639984dip"
         android:dashGap="2.0dip" />
 </shape>

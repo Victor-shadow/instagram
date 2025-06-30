@@ -6,9 +6,9 @@
     android:thickness="2.0dip"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
-        android:startColor="?igds_color_gradient_yellow"
-        android:endColor="?igds_color_gradient_purple"
+        android:startColor="@color/igds_color_gradient_yellow"
+        android:endColor="@color/igds_color_gradient_purple"
         android:angle="315.0"
         android:type="linear"
-        android:centerColor="?igds_color_gradient_red" />
+        android:centerColor="@color/igds_color_gradient_red" />
 </shape>

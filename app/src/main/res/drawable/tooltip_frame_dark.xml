@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape
+<shape xmlns:tools="http://schemas.android.com/tools"
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="@color/tooltip_background_dark" />
+        android:color="@color/tooltip_background_dark"
+        tools:ignore="PrivateResource" />
     <corners
         android:radius="@dimen/abc_edit_text_inset_top_material" />
 </shape>

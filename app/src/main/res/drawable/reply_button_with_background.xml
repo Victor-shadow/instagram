@@ -8,7 +8,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?igds_color_primary_background" />
+                android:color="@color/igds_color_primary_background" />
         </shape>
     </item>
     <item
@@ -18,7 +18,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?igds_color_elevated_highlight_background" />
+                android:color="@color/igds_color_elevated_highlight_background" />
         </shape>
     </item>
     <item

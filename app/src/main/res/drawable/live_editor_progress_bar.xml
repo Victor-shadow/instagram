@@ -25,7 +25,7 @@
                 android:innerRadius="@dimen/ad4ad_button_bottom_margin"
                 android:thickness="@dimen/abc_control_corner_material">
                 <solid
-                    android:color="?fds_usage_progress_ring_neutral_foreground" />
+                    android:color="@color/fds_usage_progress_ring_neutral_foreground" />
             </shape>
         </rotate>
     </item>

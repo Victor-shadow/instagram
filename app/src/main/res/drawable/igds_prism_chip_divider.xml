@@ -5,5 +5,5 @@
         android:height="8.0dip"
         android:width="8.0dip" />
     <solid
-        android:color="?igds_color_transparent" />
+        android:color="@color/igds_color_transparent" />
 </shape>

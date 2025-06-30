@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?sc_card_background_flat" />
+        android:color="@color/sc_card_background_flat" />
     <corners
         android:radius="@dimen/abc_button_padding_horizontal_material" />
 </shape>

@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.facebook.fbui.drawable.custom.AppBitmapDrawable
-    fbui:fbui_gravity="fill"
-    fbui:fbui_src="@drawable/instagram_check_filled_24"
-    fbui:fbui_tint="@color/direct_widget_primary_background"
-    xmlns:fbui="http://schemas.android.com/apk/res-auto" />
+<selector />

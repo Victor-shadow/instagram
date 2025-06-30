@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_creation_tools_grey_01" />
+        android:color="@color/igds_color_creation_tools_grey_01" />
     <corners
         android:topLeftRadius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"
         android:topRightRadius="@dimen/ab_test_media_thumbnail_preview_item_internal_padding"

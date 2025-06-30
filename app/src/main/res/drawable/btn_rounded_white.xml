@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_enabled="false">
         <shape
@@ -25,7 +24,7 @@
         <shape
             android:shape="rectangle">
             <solid
-                android:color="@color/abc_decor_view_status_guard_light" />
+                android:color="@color/abc_decor_view_status_guard_light" tools:ignore="PrivateResource" />
             <corners
                 android:radius="60.0dip" />
         </shape>

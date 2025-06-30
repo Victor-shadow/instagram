@@ -8,7 +8,7 @@
         android:width="@dimen/abc_dialog_padding_top_material">
         <bitmap
             android:src="@drawable/instagram_location_arrow_filled_12"
-            android:tint="?igds_color_secondary_background" />
+            android:tint="@color/igds_color_secondary_background" />
     </item>
     <item
         android:gravity="center"
@@ -18,6 +18,6 @@
         android:left="@dimen/account_preview_media_end_card_stroke_width">
         <bitmap
             android:src="@drawable/instagram_location_arrow_filled_12"
-            android:tint="?igds_color_primary_button" />
+            android:tint="@color/igds_color_primary_button" />
     </item>
 </layer-list>

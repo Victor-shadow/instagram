@@ -6,7 +6,7 @@
         <shape
             android:shape="rectangle">
             <solid
-                android:color="?igds_color_separator" />
+                android:color="@color/igds_color_separator" />
         </shape>
     </item>
 </layer-list>

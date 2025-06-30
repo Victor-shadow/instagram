@@ -6,5 +6,5 @@
         android:drawable="@drawable/secondary_button_dim_selected" />
     <item
         android:state_selected="false"
-        android:drawable="?secondaryButtonSelector" />
+        android:drawable="@color/secondarybuttonselector" />
 </selector>

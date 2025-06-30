@@ -4,5 +4,5 @@
     <solid
         android:color="@color/debug_overlay_white_70_transparent" />
     <corners
-        android:radius="?bottomButtonOnMediaCornerRadius" />
+        android:radius="@color/bottombuttononmediacornerradius" />
 </shape>

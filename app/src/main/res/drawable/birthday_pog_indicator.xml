@@ -8,7 +8,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="?igds_color_primary_background" />
+                android:color="@color/igds_color_primary_background" />
         </shape>
     </item>
     <item
@@ -18,13 +18,13 @@
         <shape
             android:shape="oval">
             <gradient
-                android:startColor="?igds_color_gradient_yellow"
-                android:endColor="?igds_color_gradient_purple"
+                android:startColor="@color/igds_color_gradient_yellow"
+                android:endColor="@color/igds_color_gradient_purple"
                 android:angle="45.0"
                 android:type="linear"
                 android:centerX="0.5"
                 android:centerY="0.5"
-                android:centerColor="?igds_color_gradient_red" />
+                android:centerColor="@color/igds_color_gradient_red" />
         </shape>
     </item>
     <item

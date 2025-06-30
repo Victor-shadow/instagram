@@ -2,5 +2,5 @@
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_controls" />
+        android:color="@color/igds_color_controls" />
 </shape>

@@ -2,7 +2,7 @@
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_primary_button" />
+        android:color="@color/igds_color_primary_button" />
     <corners
-        android:radius="?bottomButtonCornerRadius" />
+        android:radius="@color/bottombuttoncornerradius" />
 </shape>

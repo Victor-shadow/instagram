@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="2.0dip"
-        android:color="?igds_color_primary_icon" />
+        android:color="@color/igds_color_primary_icon" />
     <solid
         android:color="@color/black_0_transparent" />
     <padding

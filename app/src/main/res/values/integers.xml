@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="meta_gallery_stories_netego_gradient_rotation">135</integer>
+    <integer name="music_pick_empty_aggregation_radius_background">-10</integer>
+    <integer name="music_pick_empty_aggregation_radius">10</integer>
+    <integer name="direct_voice_send_arrow_rotation">90</integer>
+</resources>

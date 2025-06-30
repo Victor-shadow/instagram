@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_pressed="true"
-        android:drawable="@color/igds_prism_gray_01" />
+        android:drawable="@color/igds_prism_gray_08" />
     <item
-        android:drawable="@color/abc_decor_view_status_guard_light" />
+        android:drawable="@color/igds_prism_black" />
 </selector>

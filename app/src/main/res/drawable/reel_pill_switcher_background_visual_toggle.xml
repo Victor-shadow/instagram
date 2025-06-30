@@ -9,7 +9,7 @@
         <clip-path
             android:pathData="M16 0H81C89.837 0 97 7.16344 97 16C97 24.8366 89.837 32 81 32H16C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0Z" />
         <path
-            android:fillColor="?reelQuickReactionsVisualToggleBackgroundColor"
+            android:fillColor="@color/reelquickreactionsvisualtogglebackgroundcolor"
             android:pathData="M0 0V32H97V0" />
     </group>
 </vector>

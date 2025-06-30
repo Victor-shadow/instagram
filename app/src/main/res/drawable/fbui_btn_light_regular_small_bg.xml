@@ -6,10 +6,10 @@
         android:state_pressed="true">
         <shape>
             <solid
-                android:color="?fds_usage_non_media_pressed" />
+                android:color="@color/fds_usage_non_media_pressed" />
             <stroke
                 android:width="1.0dip"
-                android:color="?fds_usage_non_media_pressed" />
+                android:color="@color/fds_usage_non_media_pressed" />
             <corners
                 android:radius="@dimen/abc_action_bar_elevation_material" />
             <padding
@@ -22,10 +22,10 @@
     <item>
         <shape>
             <solid
-                android:color="?fds_usage_surface_background" />
+                android:color="@color/fds_usage_surface_background" />
             <stroke
                 android:width="1.0dip"
-                android:color="?fds_usage_secondary_button_background" />
+                android:color="@color/fds_usage_secondary_button_background" />
             <corners
                 android:radius="@dimen/abc_action_bar_elevation_material" />
             <padding

@@ -2,7 +2,7 @@
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?backgroundColorPrimary" />
+        android:color="@color/backgroundcolorprimary" />
     <corners
         android:radius="@dimen/abc_edit_text_inset_top_material" />
 </shape>

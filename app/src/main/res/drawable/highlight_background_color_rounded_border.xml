@@ -6,5 +6,5 @@
         android:radius="8.0dip" />
     <stroke
         android:width="@dimen/account_preview_media_end_card_stroke_width"
-        android:color="?igds_color_highlight_background" />
+        android:color="@color/igds_color_highlight_background" />
 </shape>

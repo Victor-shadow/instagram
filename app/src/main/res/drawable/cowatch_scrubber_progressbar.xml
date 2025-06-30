@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
+<layer-list xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@android:id/background">
@@ -7,7 +7,8 @@
             <corners
                 android:radius="10.0dip" />
             <solid
-                android:color="@color/primary_text_disabled_material_dark" />
+                android:color="@color/primary_text_disabled_material_dark"
+                tools:ignore="PrivateResource" />
             <size
                 android:height="3.0dip" />
         </shape>

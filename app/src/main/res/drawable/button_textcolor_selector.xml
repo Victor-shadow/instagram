@@ -3,16 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:color="?igds_color_text_on_color"
+        android:color="@color/igds_color_text_on_color"
         app:state_blue="true" />
     <item
-        android:color="?igds_color_primary_text"
+        android:color="@color/igds_color_primary_text"
         app:state_grey="true" />
     <item
-        android:color="?igds_color_primary_button"
+        android:color="@color/igds_color_primary_button"
         app:state_transparent="true" />
     <item
-        android:color="?igds_color_text_on_color"
+        android:color="@color/igds_color_text_on_color"
         app:state_black="true" />
     <item
         android:color="@color/igds_prism_black"

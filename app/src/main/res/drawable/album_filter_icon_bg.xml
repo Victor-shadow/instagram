@@ -5,5 +5,5 @@
     <corners
         android:radius="26.0dip" />
     <solid
-        android:color="?igds_color_elevated_highlight_background" />
+        android:color="@color/igds_color_elevated_highlight_background" />
 </shape>

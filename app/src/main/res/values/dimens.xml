@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <dimen name="ab_test_media_thumbnail_preview_item_internal_padding">16.0dip</dimen>
     <dimen name="ab_test_media_thumbnail_preview_item_width">140.0dip</dimen>
-    <dimen name="abc_action_bar_content_inset_material">16.0dip</dimen>
-    <dimen name="abc_action_bar_content_inset_with_nav">72.0dip</dimen>
-    <dimen name="abc_action_bar_default_height_material">56.0dip</dimen>
-    <dimen name="abc_action_bar_default_padding_end_material">0.0dip</dimen>
-    <dimen name="abc_action_bar_elevation_material">4.0dip</dimen>
-    <dimen name="abc_action_bar_subtitle_top_margin_material">-3.0dip</dimen>
-    <dimen name="abc_alert_dialog_button_bar_height">48.0dip</dimen>
-    <dimen name="abc_alert_dialog_button_dimen">48.0dip</dimen>
-    <item name="abc_button_inset_horizontal_material" type="dimen">@dimen/abc_action_bar_elevation_material</item>
-    <dimen name="abc_button_inset_vertical_material">6.0dip</dimen>
-    <dimen name="abc_button_padding_horizontal_material">8.0dip</dimen>
-    <item name="abc_button_padding_vertical_material" type="dimen">@dimen/abc_action_bar_elevation_material</item>
-    <dimen name="abc_cascading_menus_min_smallest_width">720.0dip</dimen>
-    <dimen name="abc_config_prefDialogWidth">320.0dip</dimen>
-    <dimen name="abc_control_corner_material">2.0dip</dimen>
-    <item name="abc_dialog_min_width_major" type="dimen">65.0%</item>
-    <item name="abc_dialog_min_width_minor" type="dimen">95.00001%</item>
-    <dimen name="abc_dialog_padding_material">24.0dip</dimen>
-    <dimen name="abc_dialog_padding_top_material">18.0dip</dimen>
-    <dimen name="abc_dropdownitem_icon_width">32.0dip</dimen>
-    <dimen name="abc_edit_text_inset_bottom_material">7.0dip</dimen>
-    <dimen name="abc_edit_text_inset_top_material">10.0dip</dimen>
-    <dimen name="abc_list_item_height_large_material">80.0dip</dimen>
-    <dimen name="abc_list_item_height_material">64.0dip</dimen>
-    <item name="abc_list_item_padding_horizontal_material" type="dimen">@dimen/abc_action_bar_content_inset_material</item>
-    <dimen name="abc_panel_menu_list_width">296.0dip</dimen>
-    <dimen name="abc_search_view_preferred_width">320.0dip</dimen>
-    <dimen name="abc_select_dialog_padding_start_material">20.0dip</dimen>
-    <dimen name="abc_star_medium">36.0dip</dimen>
-    <dimen name="abc_switch_padding">0.0px</dimen>
-    <dimen name="abc_text_size_menu_header_material">14.0sp</dimen>
+    <dimen name="abc_action_bar_content_inset_material" tools:ignore="PrivateResource">16.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav" tools:ignore="PrivateResource">72.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material" tools:ignore="PrivateResource">56.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material" tools:ignore="PrivateResource">0.0dip</dimen>
+    <dimen name="abc_action_bar_elevation_material" tools:ignore="PrivateResource">4.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin_material" tools:ignore="PrivateResource">-3.0dip</dimen>
+    <dimen name="abc_alert_dialog_button_bar_height" tools:ignore="PrivateResource">48.0dip</dimen>
+    <dimen name="abc_alert_dialog_button_dimen" tools:ignore="PrivateResource">48.0dip</dimen>
+    <item name="abc_button_inset_horizontal_material" type="dimen" tools:ignore="PrivateResource">@dimen/abc_action_bar_elevation_material</item>
+    <dimen name="abc_button_inset_vertical_material" tools:ignore="PrivateResource">6.0dip</dimen>
+    <dimen name="abc_button_padding_horizontal_material" tools:ignore="PrivateResource">8.0dip</dimen>
+    <item name="abc_button_padding_vertical_material" type="dimen" tools:ignore="PrivateResource">@dimen/abc_action_bar_elevation_material</item>
+    <dimen name="abc_cascading_menus_min_smallest_width" tools:ignore="PrivateResource">720.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth" tools:ignore="PrivateResource">320.0dip</dimen>
+    <dimen name="abc_control_corner_material" tools:ignore="PrivateResource">2.0dip</dimen>
+    <item name="abc_dialog_min_width_major" type="dimen" tools:ignore="PrivateResource">65.0%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen" tools:ignore="PrivateResource">95.00001%</item>
+    <dimen name="abc_dialog_padding_material" tools:ignore="PrivateResource">24.0dip</dimen>
+    <dimen name="abc_dialog_padding_top_material" tools:ignore="PrivateResource">18.0dip</dimen>
+    <dimen name="abc_dropdownitem_icon_width" tools:ignore="PrivateResource">32.0dip</dimen>
+    <dimen name="abc_edit_text_inset_bottom_material" tools:ignore="PrivateResource">7.0dip</dimen>
+    <dimen name="abc_edit_text_inset_top_material" tools:ignore="PrivateResource">10.0dip</dimen>
+    <dimen name="abc_list_item_height_large_material" tools:ignore="PrivateResource">80.0dip</dimen>
+    <dimen name="abc_list_item_height_material" tools:ignore="PrivateResource">64.0dip</dimen>
+    <item name="abc_list_item_padding_horizontal_material" type="dimen" tools:ignore="PrivateResource">@dimen/abc_action_bar_content_inset_material</item>
+    <dimen name="abc_panel_menu_list_width" tools:ignore="PrivateResource">296.0dip</dimen>
+    <dimen name="abc_search_view_preferred_width" tools:ignore="PrivateResource">320.0dip</dimen>
+    <dimen name="abc_select_dialog_padding_start_material" tools:ignore="PrivateResource">20.0dip</dimen>
+    <dimen name="abc_star_medium" tools:ignore="PrivateResource">36.0dip</dimen>
+    <dimen name="abc_switch_padding" tools:ignore="PrivateResource">0.0px</dimen>
+    <dimen name="abc_text_size_menu_header_material" tools:ignore="PrivateResource">14.0sp</dimen>
     <dimen name="accent_edge_thickness">5.0dip</dimen>
     <dimen name="account_discovery_bottom_gap">12.0dip</dimen>
     <dimen name="account_group_management_clickable_width">40.0dip</dimen>
@@ -72,7 +72,7 @@
     <dimen name="add_to_story_dual_destination_share_sheet_avatar_icon_size">44.0dip</dimen>
     <dimen name="add_to_story_dual_destination_share_sheet_story_row_height">60.0dip</dimen>
     <dimen name="add_to_story_dual_destination_share_sheet_subtitle_max_width">220.0dip</dimen>
-    <dimen name="ads_disclosure_footer_top_divider_height">1.0px</dimen>
+    <dimen name="ads_disclosure_footer_top_divider_height">1.0dp</dimen>
     <dimen name="afi_indicator_arrow_margin_top">1.5dip</dimen>
     <dimen name="afi_indicator_arrow_margin_top_adjusted">1.7999878dip</dimen>
     <dimen name="afi_margin_top">9.0dip</dimen>
@@ -152,7 +152,7 @@
     <dimen name="avatar_upsell_sheet_image_height">126.0dip</dimen>
     <dimen name="avatar_upsell_sheet_sp_image_height">191.0dip</dimen>
     <dimen name="avatar_upsell_sheet_sp_image_width">248.0dip</dimen>
-    <dimen name="axis_thickness">5.0px</dimen>
+    <dimen name="axis_thickness">5.0dp</dimen>
     <dimen name="backup_codes_text_size">20.0sp</dimen>
     <dimen name="before_and_after_caption_font_size">40.0sp</dimen>
     <dimen name="before_and_after_media_card_height">196.0dip</dimen>
@@ -180,7 +180,7 @@
     <item type="dimen" name="branding_badge_constraint_circle_angle">130.0</item>
     <dimen name="branding_badge_constraint_circle_radius">18.199982dip</dimen>
     <dimen name="browser_actions_context_menu_max_width">500.0dip</dimen>
-    <dimen name="browser_progress_overlay_height">2.0px</dimen>
+    <dimen name="browser_progress_overlay_height">2.0dp</dimen>
     <dimen name="bubble_external_padding">18.5dip</dimen>
     <dimen name="button_text_size">11.0sp</dimen>
     <item type="dimen" name="call_end_screen_top_margin">@dimen/challenge_winner_v2_2_winner1_mention_margin_bottom</item>
@@ -307,7 +307,7 @@
     <dimen name="clips_viewer_media_profile_in_ufi_large_follow_button_top_margin">33.0dip</dimen>
     <dimen name="clips_viewer_media_username_med_top_expansion_padding">8.5dip</dimen>
     <item type="dimen" name="clips_viewer_social_context_shadow_radius">8.0</item>
-    <dimen name="clock_face_margin_start">64.0dip</dimen>
+    <dimen name="clock_face_margin_start" tools:ignore="PrivateResource">64.0dip</dimen>
     <item type="dimen" name="cluster_item_horizontal_overlap_factor">0.4</item>
     <dimen name="color_picker_gradient_margin">14.5dip</dimen>
     <item type="dimen" name="comment_cta_header_text_letter_spacing">-0.01</item>
@@ -318,8 +318,8 @@
     <dimen name="community_chat_warning_circle_radius">360.0dip</dimen>
     <dimen name="composer_story_comments_drop_down_height">340.0dip</dimen>
     <dimen name="composer_story_comments_post_button_translate_y">-2.0dip</dimen>
-    <dimen name="config_minScalingSpan">27.0mm</dimen>
-    <dimen name="config_min_scaling_span">12.0mm</dimen>
+    <dimen name="config_minScalingSpan">27.0dp</dimen>
+    <dimen name="config_min_scaling_span">12.0dp</dimen>
     <dimen name="container_height">54.0dip</dimen>
     <dimen name="content_title_margin_top">36.5dip</dimen>
     <dimen name="contextual_sticker_expanded_title_divider_width">0.39999998dip</dimen>
@@ -337,14 +337,14 @@
     <item type="dimen" name="default_focused_alpha">0.06</item>
     <item type="dimen" name="default_hovered_alpha">0.04</item>
     <item type="dimen" name="default_icon_pressed_alpha">0.5</item>
-    <dimen name="design_navigation_max_width">280.0dip</dimen>
-    <dimen name="design_snackbar_action_inline_max_width">128.0dip</dimen>
-    <dimen name="design_snackbar_background_corner_radius">0.0dip</dimen>
-    <dimen name="design_snackbar_extra_spacing_horizontal">0.0dip</dimen>
-    <dimen name="design_snackbar_max_width">-1.0px</dimen>
-    <dimen name="design_snackbar_min_width">-1.0px</dimen>
-    <dimen name="design_snackbar_padding_vertical_2lines">16.0dip</dimen>
-    <dimen name="design_tab_scrollable_min_width">72.0dip</dimen>
+    <dimen name="design_navigation_max_width" tools:ignore="PrivateResource">280.0dip</dimen>
+    <dimen name="design_snackbar_action_inline_max_width" tools:ignore="PrivateResource">128.0dip</dimen>
+    <dimen name="design_snackbar_background_corner_radius" tools:ignore="PrivateResource">0.0dip</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal" tools:ignore="PrivateResource">0.0dip</dimen>
+    <dimen name="design_snackbar_max_width" tools:ignore="PrivateResource">-1.0px</dimen>
+    <dimen name="design_snackbar_min_width" tools:ignore="PrivateResource">-1.0px</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines" tools:ignore="PrivateResource">16.0dip</dimen>
+    <dimen name="design_tab_scrollable_min_width" tools:ignore="PrivateResource">72.0dip</dimen>
     <dimen name="direct_avatar_presence_badge_size_xl">18.669983dip</dimen>
     <dimen name="direct_clips_stack_message_height">256.0dip</dimen>
     <dimen name="direct_drawable_padding_size">5.0dip</dimen>
@@ -418,9 +418,9 @@
     <dimen name="hashtag_feed_header_followers_placeholder_height">19.599976dip</dimen>
     <dimen name="hashtag_feed_header_top_posts_placeholder_width">149.0dp</dimen>
     <dimen name="hashtag_netego_tombstone_height">265.0dip</dimen>
-    <item type="dimen" name="highlight_alpha_material_colored">0.26</item>
+    <item type="dimen" name="highlight_alpha_material_colored" tools:ignore="PrivateResource">0.26</item>
     <dimen name="highlight_card_width">93.0dip</dimen>
-    <item type="dimen" name="hint_pressed_alpha_material_light">0.54</item>
+    <item type="dimen" name="hint_pressed_alpha_material_light" tools:ignore="PrivateResource">0.54</item>
     <dimen name="horizontal_list_thumbnail_size">152.0dip</dimen>
     <dimen name="iconic_note_stroke_width">1.3999939dip</dimen>
     <dimen name="ig_logo_top_margin">142.0dip</dimen>
@@ -450,11 +450,11 @@
     <dimen name="login_history_map_width">292.0dip</dimen>
     <dimen name="magic_media_remix_media_container_width">194.0dip</dimen>
     <dimen name="main_feed_placeholder_comment_width">293.0dip</dimen>
-    <dimen name="material_bottom_sheet_max_width">640.0dip</dimen>
+    <dimen name="material_bottom_sheet_max_width" tools:ignore="PrivateResource">640.0dip</dimen>
     <item type="dimen" name="material_emphasis_high_type">0.87</item>
-    <dimen name="material_textinput_max_width">488.0dip</dimen>
-    <dimen name="material_time_picker_minimum_screen_height">560.0dip</dimen>
-    <dimen name="material_time_picker_minimum_screen_width">340.0dip</dimen>
+    <dimen name="material_textinput_max_width" tools:ignore="PrivateResource">488.0dip</dimen>
+    <dimen name="material_time_picker_minimum_screen_height" tools:ignore="PrivateResource">560.0dip</dimen>
+    <dimen name="material_time_picker_minimum_screen_width" tools:ignore="PrivateResource">340.0dip</dimen>
     <item type="dimen" name="media_preview_ratio">0.2</item>
     <dimen name="media_tag_indicator_padding">6.5dip</dimen>
     <dimen name="media_thumbnail_preview_item_height">208.0dip</dimen>
@@ -467,17 +467,17 @@
     <dimen name="messaging_ads_multi_suggestions_card_height">238.0dip</dimen>
     <dimen name="messaging_ads_multi_suggestions_thumbnail_height">138.0dip</dimen>
     <dimen name="meta_gallery_stories_netego_left_image_translation">-80.0dip</dimen>
-    <dimen name="mtrl_alert_dialog_background_inset_bottom">80.0dip</dimen>
-    <dimen name="mtrl_bottomappbar_height">56.0dip</dimen>
-    <dimen name="mtrl_calendar_day_corner">15.0dip</dimen>
-    <dimen name="mtrl_calendar_day_height">32.0dip</dimen>
-    <dimen name="mtrl_calendar_day_horizontal_padding">3.0dip</dimen>
-    <dimen name="mtrl_calendar_day_vertical_padding">1.0dip</dimen>
-    <dimen name="mtrl_calendar_day_width">36.0dip</dimen>
-    <dimen name="mtrl_calendar_days_of_week_height">24.0dip</dimen>
-    <dimen name="mtrl_calendar_month_horizontal_padding">2.0dip</dimen>
-    <item type="dimen" name="mtrl_high_ripple_default_alpha">0.24</item>
-    <item type="dimen" name="mtrl_low_ripple_default_alpha">0.12</item>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom" tools:ignore="PrivateResource">80.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_height" tools:ignore="PrivateResource">56.0dip</dimen>
+    <dimen name="mtrl_calendar_day_corner" tools:ignore="PrivateResource">15.0dip</dimen>
+    <dimen name="mtrl_calendar_day_height" tools:ignore="PrivateResource">32.0dip</dimen>
+    <dimen name="mtrl_calendar_day_horizontal_padding" tools:ignore="PrivateResource">3.0dip</dimen>
+    <dimen name="mtrl_calendar_day_vertical_padding" tools:ignore="PrivateResource">1.0dip</dimen>
+    <dimen name="mtrl_calendar_day_width" tools:ignore="PrivateResource">36.0dip</dimen>
+    <dimen name="mtrl_calendar_days_of_week_height" tools:ignore="PrivateResource">24.0dip</dimen>
+    <dimen name="mtrl_calendar_month_horizontal_padding" tools:ignore="PrivateResource">2.0dip</dimen>
+    <item type="dimen" name="mtrl_high_ripple_default_alpha" tools:ignore="PrivateResource">0.24</item>
+    <item type="dimen" name="mtrl_low_ripple_default_alpha" tools:ignore="PrivateResource">0.12</item>
     <item type="dimen" name="music_bottom_sheet_preview_button_size">@dimen/account_preview_media_end_card_padding</item>
     <dimen name="music_pick_author_container_size">139.0dip</dimen>
     <dimen name="music_sticker_max_width">335.0dip</dimen>
@@ -589,7 +589,7 @@
     <item type="dimen" name="share_option_horizontal_padding">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
     <item type="dimen" name="share_professional_profile_background_corner_radius_without_images">@dimen/abc_button_inset_vertical_material</item>
     <item type="dimen" name="share_profile_sticker_bio_bottom_margin">@dimen/ab_test_media_thumbnail_preview_item_internal_padding</item>
-    <dimen name="sharesheet_divider_height">0.5px</dimen>
+    <dimen name="sharesheet_divider_height">0.5dp</dimen>
     <dimen name="shh_max_gravity">2800.0dip</dimen>
     <dimen name="shh_max_pos_y_delta">-100.0dip</dimen>
     <dimen name="shh_min_gravity">1600.0dip</dimen>
@@ -634,10 +634,12 @@
     <dimen name="universal_location_sticker_icon_offset">3.25dip</dimen>
     <dimen name="valentines_day_mention_sticker_left_heart_margin_end">-17.0dip</dimen>
     <dimen name="valentines_day_mention_sticker_right_heart_margin_start">-21.0dip</dimen>
-    <dimen name="vic_sticker_share_card_stroke_radius">3.0px</dimen>
+    <dimen name="vic_sticker_share_card_stroke_radius">3.0dp</dimen>
     <dimen name="video_cutout_sticker_height">420.0dip</dimen>
     <dimen name="vinyl_sticker_album_art_height">120.5dip</dimen>
     <dimen name="vinyl_sticker_size">278.0dip</dimen>
     <dimen name="xposting_upsell_message_footer_text_view_width">273.0dip</dimen>
+    <dimen name="cluster_item_horizontal_affected" />
+    <dimen name="cluster_item_horizontal_overlap" />
     <item type="dimen" name="xr_ui_scale_factor">1.16</item>
 </resources>

@@ -8,7 +8,7 @@
         android:state_pressed="false">
         <shape>
             <solid
-                android:color="?igds_color_primary_button_on_media" />
+                android:color="@color/igds_color_primary_button_on_media" />
         </shape>
     </item>
 </selector>

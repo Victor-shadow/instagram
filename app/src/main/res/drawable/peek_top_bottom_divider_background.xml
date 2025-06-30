@@ -4,7 +4,7 @@
     <item>
         <shape>
             <solid
-                android:color="?igds_color_separator" />
+                android:color="@color/igds_color_separator" />
         </shape>
     </item>
     <item
@@ -12,7 +12,7 @@
         android:bottom="1.0px">
         <shape>
             <solid
-                android:color="?igds_color_primary_background" />
+                android:color="@color/igds_color_primary_background" />
             <padding
                 android:top="1.0px"
                 android:bottom="1.0px" />

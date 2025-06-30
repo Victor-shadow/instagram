@@ -8,5 +8,5 @@
         android:height="28.0dip"
         android:width="36.0dip" />
     <solid
-        android:color="?igds_color_elevated_background" />
+        android:color="@color/igds_color_elevated_background" />
 </shape>

@@ -18,7 +18,7 @@
             android:translateX="0.5"
             android:translateY="0.995">
             <path
-                android:fillColor="@drawable/$ads_preview_thumbnail_legibility_gradient_v24__0"
+                android:fillColor="@drawable/ads_preview_thumbnail_legibility_gradient_v24__0"
                 android:pathData="M0 0V100H100V0" />
         </group>
     </group>

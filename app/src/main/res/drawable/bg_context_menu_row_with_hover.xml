@@ -5,8 +5,8 @@
         android:state_pressed="true">
         <shape>
             <gradient
-                android:startColor="?igds_color_hover_menu_row_background_gradient_start"
-                android:endColor="?igds_color_hover_menu_row_background_gradient_end"
+                android:startColor="@color/igds_color_hover_menu_row_background_gradient_start"
+                android:endColor="@color/igds_color_hover_menu_row_background_gradient_end"
                 android:angle="0.0"
                 android:type="radial"
                 android:centerX="0.0"
@@ -18,8 +18,8 @@
         android:state_selected="true">
         <shape>
             <gradient
-                android:startColor="?igds_color_hover_menu_row_background_gradient_start"
-                android:endColor="?igds_color_hover_menu_row_background_gradient_end"
+                android:startColor="@color/igds_color_hover_menu_row_background_gradient_start"
+                android:endColor="@color/igds_color_hover_menu_row_background_gradient_end"
                 android:angle="0.0"
                 android:type="radial"
                 android:centerX="0.0"

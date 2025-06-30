@@ -3,10 +3,10 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?supBackgroundColor" />
+        android:color="@color/supbackgroundcolor" />
     <corners
-        android:radius="?toggleTrackRadius" />
+        android:radius="@color/toggletrackradius" />
     <size
-        android:height="?toggleTrackHeight"
-        android:width="?toggleTrackWidth" />
+        android:height="@color/toggletrackheight"
+        android:width="@color/toggletrackwidth" />
 </shape>

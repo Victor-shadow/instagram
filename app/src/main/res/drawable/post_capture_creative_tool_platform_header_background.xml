@@ -3,7 +3,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <solid
-        android:color="?igds_color_creation_button" />
+        android:color="@color/igds_color_creation_button" />
     <corners
         android:topLeftRadius="20.0dip"
         android:topRightRadius="20.0dip"

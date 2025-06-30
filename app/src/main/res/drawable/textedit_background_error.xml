@@ -8,7 +8,7 @@
                 android:color="@color/grey_0" />
             <stroke
                 android:width="@dimen/account_preview_media_end_card_stroke_width"
-                android:color="?igds_color_error_or_destructive" />
+                android:color="@color/igds_color_error_or_destructive" />
             <corners
                 android:radius="@dimen/abc_action_bar_elevation_material" />
         </shape>

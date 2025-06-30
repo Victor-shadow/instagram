@@ -5,8 +5,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <shape>
         <gradient
-            android:startColor="?igds_color_close_friends_gradient_start"
-            android:endColor="?igds_color_close_friends_gradient_end"
+            android:startColor="@color/igds_color_close_friends_gradient_start"
+            android:endColor="@color/igds_color_close_friends_gradient_end"
             android:angle="315.0" />
         <corners
             android:radius="@dimen/abc_action_bar_elevation_material" />

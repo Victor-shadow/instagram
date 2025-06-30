@@ -7,7 +7,7 @@
         android:alpha="@dimen/creator_inspiration_hub_pill_alpha">
         <shape>
             <solid
-                android:color="?igds_color_pill_active_background" />
+                android:color="@color/igds_color_pill_active_background" />
             <corners
                 android:radius="@dimen/abc_button_padding_horizontal_material" />
         </shape>
@@ -28,7 +28,7 @@
         android:state_pressed="false">
         <shape>
             <solid
-                android:color="?igds_color_pill_active_background" />
+                android:color="@color/igds_color_pill_active_background" />
             <corners
                 android:radius="@dimen/abc_button_padding_horizontal_material" />
         </shape>

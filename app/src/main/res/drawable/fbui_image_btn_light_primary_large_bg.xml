@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector
-    android:variablePadding="false"
+<selector xmlns:tools="http://schemas.android.com/tools" android:variablePadding="false"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_enabled="true"
@@ -22,7 +21,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="@color/abc_decor_view_status_guard_light" />
+                android:color="@color/abc_decor_view_status_guard_light" tools:ignore="PrivateResource" />
             <stroke
                 android:width="1.0dip"
                 android:color="@color/fbui_btn_light_primary_stroke_disabled" />
@@ -36,7 +35,7 @@
         <shape
             android:shape="oval">
             <solid
-                android:color="@color/abc_decor_view_status_guard_light" />
+                android:color="@color/abc_decor_view_status_guard_light" tools:ignore="PrivateResource" />
             <stroke
                 android:width="1.0dip"
                 android:color="@color/fbui_btn_light_primary_stroke_disabled" />
